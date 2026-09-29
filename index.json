@@ -1,0 +1,35 @@
+{
+    "name": "Furglitch Jingles",
+    "nds": [
+        {
+            "game": "Pokemon Diamond",
+            "file": "jingles/nds/Pokemon Diamond (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+diamond$|pokemon[^a-z0-9]+diamond[^a-z0-9]+opening$|nds[^a-z0-9]+pokemon[^a-z0-9]+diamond$|nds[^a-z0-9]+pokemon[^a-z0-9]+diamond[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Diamond",
+            "file": "jingles/nds/Pokemon Diamond (Press Start).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+diamond$|pokemon[^a-z0-9]+diamond[^a-z0-9]+press[^a-z0-9]+start$|nds[^a-z0-9]+pokemon[^a-z0-9]+diamond$|nds[^a-z0-9]+pokemon[^a-z0-9]+diamond[^a-z0-9]+press[^a-z0-9]+start$)"
+        },
+        {
+            "game": "Pokemon Pearl",
+            "file": "jingles/nds/Pokemon Pearl (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+pearl$|pokemon[^a-z0-9]+pearl[^a-z0-9]+opening$|nds[^a-z0-9]+pokemon[^a-z0-9]+pearl$|nds[^a-z0-9]+pokemon[^a-z0-9]+pearl[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Pearl",
+            "file": "jingles/nds/Pokemon Pearl (Press Start).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+pearl$|pokemon[^a-z0-9]+pearl[^a-z0-9]+press[^a-z0-9]+start$|nds[^a-z0-9]+pokemon[^a-z0-9]+pearl$|nds[^a-z0-9]+pokemon[^a-z0-9]+pearl[^a-z0-9]+press[^a-z0-9]+start$)"
+        },
+        {
+            "game": "Pokemon Platinum",
+            "file": "jingles/nds/Pokemon Platinum (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+platinum$|pokemon[^a-z0-9]+platinum[^a-z0-9]+opening$|nds[^a-z0-9]+pokemon[^a-z0-9]+platinum$|nds[^a-z0-9]+pokemon[^a-z0-9]+platinum[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Platinum",
+            "file": "jingles/nds/Pokemon Platinum (Press Start).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+platinum$|pokemon[^a-z0-9]+platinum[^a-z0-9]+press[^a-z0-9]+start$|nds[^a-z0-9]+pokemon[^a-z0-9]+platinum$|nds[^a-z0-9]+pokemon[^a-z0-9]+platinum[^a-z0-9]+press[^a-z0-9]+start$)"
+        }
+    ]
+}
