@@ -1,6 +1,898 @@
 {
     "name": "Furglitch Jingles",
+    "3ds": [
+        {
+            "game": "Detective Pikachu",
+            "file": "jingles/3ds/Detective Pikachu (3DS Jingle).mp3",
+            "regex": "(?:detective[^a-z0-9]+pikachu$|detective[^a-z0-9]+pikachu[^a-z0-9]+3ds[^a-z0-9]+jingle$|3ds[^a-z0-9]+detective[^a-z0-9]+pikachu$|3ds[^a-z0-9]+detective[^a-z0-9]+pikachu[^a-z0-9]+3ds[^a-z0-9]+jingle$)"
+        },
+        {
+            "game": "Detective Pikachu",
+            "file": "jingles/3ds/Detective Pikachu (Main Theme).mp3",
+            "regex": "(?:detective[^a-z0-9]+pikachu$|detective[^a-z0-9]+pikachu[^a-z0-9]+main[^a-z0-9]+theme$|3ds[^a-z0-9]+detective[^a-z0-9]+pikachu$|3ds[^a-z0-9]+detective[^a-z0-9]+pikachu[^a-z0-9]+main[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Pokemon Moon",
+            "file": "jingles/3ds/Pokemon Moon (3DS Jingle).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+moon$|pokemon[^a-z0-9]+moon[^a-z0-9]+3ds[^a-z0-9]+jingle$|3ds[^a-z0-9]+pokemon[^a-z0-9]+moon$|3ds[^a-z0-9]+pokemon[^a-z0-9]+moon[^a-z0-9]+3ds[^a-z0-9]+jingle$)"
+        },
+        {
+            "game": "Pokemon Moon",
+            "file": "jingles/3ds/Pokemon Moon (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+moon$|pokemon[^a-z0-9]+moon[^a-z0-9]+title$|3ds[^a-z0-9]+pokemon[^a-z0-9]+moon$|3ds[^a-z0-9]+pokemon[^a-z0-9]+moon[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Gates to Infinity",
+            "file": "jingles/3ds/Pokemon Mystery Dungeon Gates to Infinity (Main Menu).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+gates[^a-z0-9]+to[^a-z0-9]+infinity$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+gates[^a-z0-9]+to[^a-z0-9]+infinity[^a-z0-9]+main[^a-z0-9]+menu$|3ds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+gates[^a-z0-9]+to[^a-z0-9]+infinity$|3ds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+gates[^a-z0-9]+to[^a-z0-9]+infinity[^a-z0-9]+main[^a-z0-9]+menu$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Gates to Infinity",
+            "file": "jingles/3ds/Pokemon Mystery Dungeon Gates to Infinity (Main Theme).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+gates[^a-z0-9]+to[^a-z0-9]+infinity$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+gates[^a-z0-9]+to[^a-z0-9]+infinity[^a-z0-9]+main[^a-z0-9]+theme$|3ds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+gates[^a-z0-9]+to[^a-z0-9]+infinity$|3ds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+gates[^a-z0-9]+to[^a-z0-9]+infinity[^a-z0-9]+main[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Gates to Infinity",
+            "file": "jingles/3ds/Pokemon Mystery Dungeon Gates to Infinity (Title Theme).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+gates[^a-z0-9]+to[^a-z0-9]+infinity$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+gates[^a-z0-9]+to[^a-z0-9]+infinity[^a-z0-9]+title[^a-z0-9]+theme$|3ds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+gates[^a-z0-9]+to[^a-z0-9]+infinity$|3ds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+gates[^a-z0-9]+to[^a-z0-9]+infinity[^a-z0-9]+title[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Pokemon Omega Ruby",
+            "file": "jingles/3ds/Pokemon Omega Ruby (Opening 2).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+omega[^a-z0-9]+ruby$|pokemon[^a-z0-9]+omega[^a-z0-9]+ruby[^a-z0-9]+opening[^a-z0-9]+(?:2|ii)$|3ds[^a-z0-9]+pokemon[^a-z0-9]+omega[^a-z0-9]+ruby$|3ds[^a-z0-9]+pokemon[^a-z0-9]+omega[^a-z0-9]+ruby[^a-z0-9]+opening[^a-z0-9]+(?:2|ii)$)"
+        },
+        {
+            "game": "Pokemon Omega Ruby",
+            "file": "jingles/3ds/Pokemon Omega Ruby (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+omega[^a-z0-9]+ruby$|pokemon[^a-z0-9]+omega[^a-z0-9]+ruby[^a-z0-9]+opening$|3ds[^a-z0-9]+pokemon[^a-z0-9]+omega[^a-z0-9]+ruby$|3ds[^a-z0-9]+pokemon[^a-z0-9]+omega[^a-z0-9]+ruby[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Omega Ruby",
+            "file": "jingles/3ds/Pokemon Omega Ruby (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+omega[^a-z0-9]+ruby$|pokemon[^a-z0-9]+omega[^a-z0-9]+ruby[^a-z0-9]+title$|3ds[^a-z0-9]+pokemon[^a-z0-9]+omega[^a-z0-9]+ruby$|3ds[^a-z0-9]+pokemon[^a-z0-9]+omega[^a-z0-9]+ruby[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Sun",
+            "file": "jingles/3ds/Pokemon Sun (3DS Jingle).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+sun$|pokemon[^a-z0-9]+sun[^a-z0-9]+3ds[^a-z0-9]+jingle$|3ds[^a-z0-9]+pokemon[^a-z0-9]+sun$|3ds[^a-z0-9]+pokemon[^a-z0-9]+sun[^a-z0-9]+3ds[^a-z0-9]+jingle$)"
+        },
+        {
+            "game": "Pokemon Sun",
+            "file": "jingles/3ds/Pokemon Sun (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+sun$|pokemon[^a-z0-9]+sun[^a-z0-9]+title$|3ds[^a-z0-9]+pokemon[^a-z0-9]+sun$|3ds[^a-z0-9]+pokemon[^a-z0-9]+sun[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Super Mystery Dungeon",
+            "file": "jingles/3ds/Pokemon Super Mystery Dungeon (Main Menu).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+super[^a-z0-9]+mystery[^a-z0-9]+dungeon$|pokemon[^a-z0-9]+super[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+main[^a-z0-9]+menu$|3ds[^a-z0-9]+pokemon[^a-z0-9]+super[^a-z0-9]+mystery[^a-z0-9]+dungeon$|3ds[^a-z0-9]+pokemon[^a-z0-9]+super[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+main[^a-z0-9]+menu$)"
+        },
+        {
+            "game": "Pokemon Super Mystery Dungeon",
+            "file": "jingles/3ds/Pokemon Super Mystery Dungeon (Main Theme).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+super[^a-z0-9]+mystery[^a-z0-9]+dungeon$|pokemon[^a-z0-9]+super[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+main[^a-z0-9]+theme$|3ds[^a-z0-9]+pokemon[^a-z0-9]+super[^a-z0-9]+mystery[^a-z0-9]+dungeon$|3ds[^a-z0-9]+pokemon[^a-z0-9]+super[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+main[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Pokemon Super Mystery Dungeon",
+            "file": "jingles/3ds/Pokemon Super Mystery Dungeon (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+super[^a-z0-9]+mystery[^a-z0-9]+dungeon$|pokemon[^a-z0-9]+super[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+title$|3ds[^a-z0-9]+pokemon[^a-z0-9]+super[^a-z0-9]+mystery[^a-z0-9]+dungeon$|3ds[^a-z0-9]+pokemon[^a-z0-9]+super[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Ultra Moon",
+            "file": "jingles/3ds/Pokemon Ultra Moon (3DS Jingle).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ultra[^a-z0-9]+moon$|pokemon[^a-z0-9]+ultra[^a-z0-9]+moon[^a-z0-9]+3ds[^a-z0-9]+jingle$|3ds[^a-z0-9]+pokemon[^a-z0-9]+ultra[^a-z0-9]+moon$|3ds[^a-z0-9]+pokemon[^a-z0-9]+ultra[^a-z0-9]+moon[^a-z0-9]+3ds[^a-z0-9]+jingle$)"
+        },
+        {
+            "game": "Pokemon Ultra Moon",
+            "file": "jingles/3ds/Pokemon Ultra Moon (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ultra[^a-z0-9]+moon$|pokemon[^a-z0-9]+ultra[^a-z0-9]+moon[^a-z0-9]+title$|3ds[^a-z0-9]+pokemon[^a-z0-9]+ultra[^a-z0-9]+moon$|3ds[^a-z0-9]+pokemon[^a-z0-9]+ultra[^a-z0-9]+moon[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Ultra Sun",
+            "file": "jingles/3ds/Pokemon Ultra Sun (3DS Jingle).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ultra[^a-z0-9]+sun$|pokemon[^a-z0-9]+ultra[^a-z0-9]+sun[^a-z0-9]+3ds[^a-z0-9]+jingle$|3ds[^a-z0-9]+pokemon[^a-z0-9]+ultra[^a-z0-9]+sun$|3ds[^a-z0-9]+pokemon[^a-z0-9]+ultra[^a-z0-9]+sun[^a-z0-9]+3ds[^a-z0-9]+jingle$)"
+        },
+        {
+            "game": "Pokemon Ultra Sun",
+            "file": "jingles/3ds/Pokemon Ultra Sun (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ultra[^a-z0-9]+sun$|pokemon[^a-z0-9]+ultra[^a-z0-9]+sun[^a-z0-9]+title$|3ds[^a-z0-9]+pokemon[^a-z0-9]+ultra[^a-z0-9]+sun$|3ds[^a-z0-9]+pokemon[^a-z0-9]+ultra[^a-z0-9]+sun[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon X",
+            "file": "jingles/3ds/Pokemon X (3DS Jingle).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+(?:x|10)$|pokemon[^a-z0-9]+(?:x|10)[^a-z0-9]+3ds[^a-z0-9]+jingle$|3ds[^a-z0-9]+pokemon[^a-z0-9]+(?:x|10)$|3ds[^a-z0-9]+pokemon[^a-z0-9]+(?:x|10)[^a-z0-9]+3ds[^a-z0-9]+jingle$)"
+        },
+        {
+            "game": "Pokemon X",
+            "file": "jingles/3ds/Pokemon X (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+(?:x|10)$|pokemon[^a-z0-9]+(?:x|10)[^a-z0-9]+opening$|3ds[^a-z0-9]+pokemon[^a-z0-9]+(?:x|10)$|3ds[^a-z0-9]+pokemon[^a-z0-9]+(?:x|10)[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon X",
+            "file": "jingles/3ds/Pokemon X (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+(?:x|10)$|pokemon[^a-z0-9]+(?:x|10)[^a-z0-9]+title$|3ds[^a-z0-9]+pokemon[^a-z0-9]+(?:x|10)$|3ds[^a-z0-9]+pokemon[^a-z0-9]+(?:x|10)[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Y",
+            "file": "jingles/3ds/Pokemon Y (3DS Jingle).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+y$|pokemon[^a-z0-9]+y[^a-z0-9]+3ds[^a-z0-9]+jingle$|3ds[^a-z0-9]+pokemon[^a-z0-9]+y$|3ds[^a-z0-9]+pokemon[^a-z0-9]+y[^a-z0-9]+3ds[^a-z0-9]+jingle$)"
+        },
+        {
+            "game": "Pokemon Y",
+            "file": "jingles/3ds/Pokemon Y (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+y$|pokemon[^a-z0-9]+y[^a-z0-9]+opening$|3ds[^a-z0-9]+pokemon[^a-z0-9]+y$|3ds[^a-z0-9]+pokemon[^a-z0-9]+y[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Y",
+            "file": "jingles/3ds/Pokemon Y (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+y$|pokemon[^a-z0-9]+y[^a-z0-9]+title$|3ds[^a-z0-9]+pokemon[^a-z0-9]+y$|3ds[^a-z0-9]+pokemon[^a-z0-9]+y[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Super Mario 3D Land",
+            "file": "jingles/3ds/Super Mario 3D Land (3DS Jingle).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land$|super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land[^a-z0-9]+3ds[^a-z0-9]+jingle$|3ds[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land$|3ds[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land[^a-z0-9]+3ds[^a-z0-9]+jingle$)"
+        },
+        {
+            "game": "Super Mario 3D Land",
+            "file": "jingles/3ds/Super Mario 3D Land (Course Clear).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land$|super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land[^a-z0-9]+course[^a-z0-9]+clear$|3ds[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land$|3ds[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land[^a-z0-9]+course[^a-z0-9]+clear$)"
+        },
+        {
+            "game": "Super Mario 3D Land",
+            "file": "jingles/3ds/Super Mario 3D Land (Course Intro).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land$|super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land[^a-z0-9]+course[^a-z0-9]+intro$|3ds[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land$|3ds[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land[^a-z0-9]+course[^a-z0-9]+intro$)"
+        },
+        {
+            "game": "Super Mario 3D Land",
+            "file": "jingles/3ds/Super Mario 3D Land (Game Start).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land$|super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land[^a-z0-9]+game[^a-z0-9]+start$|3ds[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land$|3ds[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land[^a-z0-9]+game[^a-z0-9]+start$)"
+        },
+        {
+            "game": "Super Mario 3D Land",
+            "file": "jingles/3ds/Super Mario 3D Land (Title Screen).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land$|super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land[^a-z0-9]+title[^a-z0-9]+screen$|3ds[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land$|3ds[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land[^a-z0-9]+title[^a-z0-9]+screen$)"
+        }
+    ],
+    "gb": [
+        {
+            "game": "Pokemon Blue",
+            "file": "jingles/gb/Pokemon Blue (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+blue$|pokemon[^a-z0-9]+blue[^a-z0-9]+opening$|gb[^a-z0-9]+pokemon[^a-z0-9]+blue$|gb[^a-z0-9]+pokemon[^a-z0-9]+blue[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Blue",
+            "file": "jingles/gb/Pokemon Blue (Pallet Town).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+blue$|pokemon[^a-z0-9]+blue[^a-z0-9]+pallet[^a-z0-9]+town$|gb[^a-z0-9]+pokemon[^a-z0-9]+blue$|gb[^a-z0-9]+pokemon[^a-z0-9]+blue[^a-z0-9]+pallet[^a-z0-9]+town$)"
+        },
+        {
+            "game": "Pokemon Blue",
+            "file": "jingles/gb/Pokemon Blue (Route 1).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+blue$|pokemon[^a-z0-9]+blue[^a-z0-9]+route[^a-z0-9]+(?:1|i)$|gb[^a-z0-9]+pokemon[^a-z0-9]+blue$|gb[^a-z0-9]+pokemon[^a-z0-9]+blue[^a-z0-9]+route[^a-z0-9]+(?:1|i)$)"
+        },
+        {
+            "game": "Pokemon Blue",
+            "file": "jingles/gb/Pokemon Blue (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+blue$|pokemon[^a-z0-9]+blue[^a-z0-9]+title$|gb[^a-z0-9]+pokemon[^a-z0-9]+blue$|gb[^a-z0-9]+pokemon[^a-z0-9]+blue[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Green",
+            "file": "jingles/gb/Pokemon Green (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+green$|pokemon[^a-z0-9]+green[^a-z0-9]+opening$|gb[^a-z0-9]+pokemon[^a-z0-9]+green$|gb[^a-z0-9]+pokemon[^a-z0-9]+green[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Green",
+            "file": "jingles/gb/Pokemon Green (Pallet Town).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+green$|pokemon[^a-z0-9]+green[^a-z0-9]+pallet[^a-z0-9]+town$|gb[^a-z0-9]+pokemon[^a-z0-9]+green$|gb[^a-z0-9]+pokemon[^a-z0-9]+green[^a-z0-9]+pallet[^a-z0-9]+town$)"
+        },
+        {
+            "game": "Pokemon Green",
+            "file": "jingles/gb/Pokemon Green (Route 1).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+green$|pokemon[^a-z0-9]+green[^a-z0-9]+route[^a-z0-9]+(?:1|i)$|gb[^a-z0-9]+pokemon[^a-z0-9]+green$|gb[^a-z0-9]+pokemon[^a-z0-9]+green[^a-z0-9]+route[^a-z0-9]+(?:1|i)$)"
+        },
+        {
+            "game": "Pokemon Green",
+            "file": "jingles/gb/Pokemon Green (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+green$|pokemon[^a-z0-9]+green[^a-z0-9]+title$|gb[^a-z0-9]+pokemon[^a-z0-9]+green$|gb[^a-z0-9]+pokemon[^a-z0-9]+green[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Red",
+            "file": "jingles/gb/Pokemon Red (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+red$|pokemon[^a-z0-9]+red[^a-z0-9]+opening$|gb[^a-z0-9]+pokemon[^a-z0-9]+red$|gb[^a-z0-9]+pokemon[^a-z0-9]+red[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Red",
+            "file": "jingles/gb/Pokemon Red (Pallet Town).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+red$|pokemon[^a-z0-9]+red[^a-z0-9]+pallet[^a-z0-9]+town$|gb[^a-z0-9]+pokemon[^a-z0-9]+red$|gb[^a-z0-9]+pokemon[^a-z0-9]+red[^a-z0-9]+pallet[^a-z0-9]+town$)"
+        },
+        {
+            "game": "Pokemon Red",
+            "file": "jingles/gb/Pokemon Red (Route 1).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+red$|pokemon[^a-z0-9]+red[^a-z0-9]+route[^a-z0-9]+(?:1|i)$|gb[^a-z0-9]+pokemon[^a-z0-9]+red$|gb[^a-z0-9]+pokemon[^a-z0-9]+red[^a-z0-9]+route[^a-z0-9]+(?:1|i)$)"
+        },
+        {
+            "game": "Pokemon Red",
+            "file": "jingles/gb/Pokemon Red (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+red$|pokemon[^a-z0-9]+red[^a-z0-9]+title$|gb[^a-z0-9]+pokemon[^a-z0-9]+red$|gb[^a-z0-9]+pokemon[^a-z0-9]+red[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Yellow",
+            "file": "jingles/gb/Pokemon Yellow (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+yellow$|pokemon[^a-z0-9]+yellow[^a-z0-9]+opening$|gb[^a-z0-9]+pokemon[^a-z0-9]+yellow$|gb[^a-z0-9]+pokemon[^a-z0-9]+yellow[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Yellow",
+            "file": "jingles/gb/Pokemon Yellow (Pallet Town).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+yellow$|pokemon[^a-z0-9]+yellow[^a-z0-9]+pallet[^a-z0-9]+town$|gb[^a-z0-9]+pokemon[^a-z0-9]+yellow$|gb[^a-z0-9]+pokemon[^a-z0-9]+yellow[^a-z0-9]+pallet[^a-z0-9]+town$)"
+        },
+        {
+            "game": "Pokemon Yellow",
+            "file": "jingles/gb/Pokemon Yellow (Route 1).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+yellow$|pokemon[^a-z0-9]+yellow[^a-z0-9]+route[^a-z0-9]+(?:1|i)$|gb[^a-z0-9]+pokemon[^a-z0-9]+yellow$|gb[^a-z0-9]+pokemon[^a-z0-9]+yellow[^a-z0-9]+route[^a-z0-9]+(?:1|i)$)"
+        },
+        {
+            "game": "Pokemon Yellow",
+            "file": "jingles/gb/Pokemon Yellow (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+yellow$|pokemon[^a-z0-9]+yellow[^a-z0-9]+title$|gb[^a-z0-9]+pokemon[^a-z0-9]+yellow$|gb[^a-z0-9]+pokemon[^a-z0-9]+yellow[^a-z0-9]+title$)"
+        }
+    ],
+    "gba": [
+        {
+            "game": "Pokemon Emerald",
+            "file": "jingles/gba/Pokemon Emerald (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+emerald$|pokemon[^a-z0-9]+emerald[^a-z0-9]+opening$|gba[^a-z0-9]+pokemon[^a-z0-9]+emerald$|gba[^a-z0-9]+pokemon[^a-z0-9]+emerald[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Emerald",
+            "file": "jingles/gba/Pokemon Emerald (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+emerald$|pokemon[^a-z0-9]+emerald[^a-z0-9]+title$|gba[^a-z0-9]+pokemon[^a-z0-9]+emerald$|gba[^a-z0-9]+pokemon[^a-z0-9]+emerald[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon FireRed",
+            "file": "jingles/gba/Pokemon FireRed (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+firered$|pokemon[^a-z0-9]+firered[^a-z0-9]+opening$|gba[^a-z0-9]+pokemon[^a-z0-9]+firered$|gba[^a-z0-9]+pokemon[^a-z0-9]+firered[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon FireRed",
+            "file": "jingles/gba/Pokemon FireRed (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+firered$|pokemon[^a-z0-9]+firered[^a-z0-9]+title$|gba[^a-z0-9]+pokemon[^a-z0-9]+firered$|gba[^a-z0-9]+pokemon[^a-z0-9]+firered[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon LeafGreen",
+            "file": "jingles/gba/Pokemon LeafGreen (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+leafgreen$|pokemon[^a-z0-9]+leafgreen[^a-z0-9]+opening$|gba[^a-z0-9]+pokemon[^a-z0-9]+leafgreen$|gba[^a-z0-9]+pokemon[^a-z0-9]+leafgreen[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon LeafGreen",
+            "file": "jingles/gba/Pokemon LeafGreen (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+leafgreen$|pokemon[^a-z0-9]+leafgreen[^a-z0-9]+title$|gba[^a-z0-9]+pokemon[^a-z0-9]+leafgreen$|gba[^a-z0-9]+pokemon[^a-z0-9]+leafgreen[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Red Rescue Team",
+            "file": "jingles/gba/Pokemon Red Rescue Team (Insert).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team$|pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+insert$|gba[^a-z0-9]+pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team$|gba[^a-z0-9]+pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+insert$)"
+        },
+        {
+            "game": "Pokemon Red Rescue Team",
+            "file": "jingles/gba/Pokemon Red Rescue Team (Intro).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team$|pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+intro$|gba[^a-z0-9]+pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team$|gba[^a-z0-9]+pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+intro$)"
+        },
+        {
+            "game": "Pokemon Red Rescue Team",
+            "file": "jingles/gba/Pokemon Red Rescue Team (Select).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team$|pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+select$|gba[^a-z0-9]+pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team$|gba[^a-z0-9]+pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+select$)"
+        },
+        {
+            "game": "Pokemon Red Rescue Team",
+            "file": "jingles/gba/Pokemon Red Rescue Team (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team$|pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+title$|gba[^a-z0-9]+pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team$|gba[^a-z0-9]+pokemon[^a-z0-9]+red[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Ruby",
+            "file": "jingles/gba/Pokemon Ruby (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ruby$|pokemon[^a-z0-9]+ruby[^a-z0-9]+opening$|gba[^a-z0-9]+pokemon[^a-z0-9]+ruby$|gba[^a-z0-9]+pokemon[^a-z0-9]+ruby[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Ruby",
+            "file": "jingles/gba/Pokemon Ruby (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ruby$|pokemon[^a-z0-9]+ruby[^a-z0-9]+title$|gba[^a-z0-9]+pokemon[^a-z0-9]+ruby$|gba[^a-z0-9]+pokemon[^a-z0-9]+ruby[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Sapphire",
+            "file": "jingles/gba/Pokemon Sapphire (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+sapphire$|pokemon[^a-z0-9]+sapphire[^a-z0-9]+opening$|gba[^a-z0-9]+pokemon[^a-z0-9]+sapphire$|gba[^a-z0-9]+pokemon[^a-z0-9]+sapphire[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Sapphire",
+            "file": "jingles/gba/Pokemon Sapphire (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+sapphire$|pokemon[^a-z0-9]+sapphire[^a-z0-9]+title$|gba[^a-z0-9]+pokemon[^a-z0-9]+sapphire$|gba[^a-z0-9]+pokemon[^a-z0-9]+sapphire[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Unbound",
+            "file": "jingles/gba/Pokemon Unbound (A New Journey Begins).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+unbound$|pokemon[^a-z0-9]+unbound[^a-z0-9]+a[^a-z0-9]+new[^a-z0-9]+journey[^a-z0-9]+begins$|gba[^a-z0-9]+pokemon[^a-z0-9]+unbound$|gba[^a-z0-9]+pokemon[^a-z0-9]+unbound[^a-z0-9]+a[^a-z0-9]+new[^a-z0-9]+journey[^a-z0-9]+begins$)"
+        },
+        {
+            "game": "Pokemon Unbound",
+            "file": "jingles/gba/Pokemon Unbound (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+unbound$|pokemon[^a-z0-9]+unbound[^a-z0-9]+title$|gba[^a-z0-9]+pokemon[^a-z0-9]+unbound$|gba[^a-z0-9]+pokemon[^a-z0-9]+unbound[^a-z0-9]+title$)"
+        }
+    ],
+    "gbc": [
+        {
+            "game": "Pokemon Crystal",
+            "file": "jingles/gbc/Pokemon Crystal (Hurry Along).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+crystal$|pokemon[^a-z0-9]+crystal[^a-z0-9]+hurry[^a-z0-9]+along$|gbc[^a-z0-9]+pokemon[^a-z0-9]+crystal$|gbc[^a-z0-9]+pokemon[^a-z0-9]+crystal[^a-z0-9]+hurry[^a-z0-9]+along$)"
+        },
+        {
+            "game": "Pokemon Crystal",
+            "file": "jingles/gbc/Pokemon Crystal (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+crystal$|pokemon[^a-z0-9]+crystal[^a-z0-9]+opening$|gbc[^a-z0-9]+pokemon[^a-z0-9]+crystal$|gbc[^a-z0-9]+pokemon[^a-z0-9]+crystal[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Crystal",
+            "file": "jingles/gbc/Pokemon Crystal (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+crystal$|pokemon[^a-z0-9]+crystal[^a-z0-9]+title$|gbc[^a-z0-9]+pokemon[^a-z0-9]+crystal$|gbc[^a-z0-9]+pokemon[^a-z0-9]+crystal[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Gold",
+            "file": "jingles/gbc/Pokemon Gold (Hurry Along).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+gold$|pokemon[^a-z0-9]+gold[^a-z0-9]+hurry[^a-z0-9]+along$|gbc[^a-z0-9]+pokemon[^a-z0-9]+gold$|gbc[^a-z0-9]+pokemon[^a-z0-9]+gold[^a-z0-9]+hurry[^a-z0-9]+along$)"
+        },
+        {
+            "game": "Pokemon Gold",
+            "file": "jingles/gbc/Pokemon Gold (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+gold$|pokemon[^a-z0-9]+gold[^a-z0-9]+opening$|gbc[^a-z0-9]+pokemon[^a-z0-9]+gold$|gbc[^a-z0-9]+pokemon[^a-z0-9]+gold[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Gold",
+            "file": "jingles/gbc/Pokemon Gold (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+gold$|pokemon[^a-z0-9]+gold[^a-z0-9]+title$|gbc[^a-z0-9]+pokemon[^a-z0-9]+gold$|gbc[^a-z0-9]+pokemon[^a-z0-9]+gold[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Silver",
+            "file": "jingles/gbc/Pokemon Silver (Hurry Along).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+silver$|pokemon[^a-z0-9]+silver[^a-z0-9]+hurry[^a-z0-9]+along$|gbc[^a-z0-9]+pokemon[^a-z0-9]+silver$|gbc[^a-z0-9]+pokemon[^a-z0-9]+silver[^a-z0-9]+hurry[^a-z0-9]+along$)"
+        },
+        {
+            "game": "Pokemon Silver",
+            "file": "jingles/gbc/Pokemon Silver (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+silver$|pokemon[^a-z0-9]+silver[^a-z0-9]+opening$|gbc[^a-z0-9]+pokemon[^a-z0-9]+silver$|gbc[^a-z0-9]+pokemon[^a-z0-9]+silver[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Silver",
+            "file": "jingles/gbc/Pokemon Silver (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+silver$|pokemon[^a-z0-9]+silver[^a-z0-9]+title$|gbc[^a-z0-9]+pokemon[^a-z0-9]+silver$|gbc[^a-z0-9]+pokemon[^a-z0-9]+silver[^a-z0-9]+title$)"
+        }
+    ],
+    "gc": [
+        {
+            "game": "Mario Kart Double Dash",
+            "file": "jingles/gc/Mario Kart Double Dash (Course Fanfare).mp3",
+            "regex": "(?:mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash$|mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash[^a-z0-9]+course[^a-z0-9]+fanfare$|gc[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash$|gc[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash[^a-z0-9]+course[^a-z0-9]+fanfare$)"
+        },
+        {
+            "game": "Mario Kart Double Dash",
+            "file": "jingles/gc/Mario Kart Double Dash (Menu).mp3",
+            "regex": "(?:mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash$|mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash[^a-z0-9]+menu$|gc[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash$|gc[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash[^a-z0-9]+menu$)"
+        },
+        {
+            "game": "Mario Kart Double Dash",
+            "file": "jingles/gc/Mario Kart Double Dash (Start Grid).mp3",
+            "regex": "(?:mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash$|mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash[^a-z0-9]+start[^a-z0-9]+grid$|gc[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash$|gc[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash[^a-z0-9]+start[^a-z0-9]+grid$)"
+        },
+        {
+            "game": "Mario Kart Double Dash",
+            "file": "jingles/gc/Mario Kart Double Dash (Theme).mp3",
+            "regex": "(?:mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash$|mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash[^a-z0-9]+theme$|gc[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash$|gc[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+double[^a-z0-9]+dash[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Pokemon Colosseum",
+            "file": "jingles/gc/Pokemon Colosseum (Fanfare 4).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+colosseum$|pokemon[^a-z0-9]+colosseum[^a-z0-9]+fanfare[^a-z0-9]+(?:4|iv)$|gc[^a-z0-9]+pokemon[^a-z0-9]+colosseum$|gc[^a-z0-9]+pokemon[^a-z0-9]+colosseum[^a-z0-9]+fanfare[^a-z0-9]+(?:4|iv)$)"
+        },
+        {
+            "game": "Pokemon Colosseum",
+            "file": "jingles/gc/Pokemon Colosseum (Final Battle).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+colosseum$|pokemon[^a-z0-9]+colosseum[^a-z0-9]+final[^a-z0-9]+battle$|gc[^a-z0-9]+pokemon[^a-z0-9]+colosseum$|gc[^a-z0-9]+pokemon[^a-z0-9]+colosseum[^a-z0-9]+final[^a-z0-9]+battle$)"
+        },
+        {
+            "game": "Pokemon Colosseum",
+            "file": "jingles/gc/Pokemon Colosseum (Team Snagem Battle).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+colosseum$|pokemon[^a-z0-9]+colosseum[^a-z0-9]+team[^a-z0-9]+snagem[^a-z0-9]+battle$|gc[^a-z0-9]+pokemon[^a-z0-9]+colosseum$|gc[^a-z0-9]+pokemon[^a-z0-9]+colosseum[^a-z0-9]+team[^a-z0-9]+snagem[^a-z0-9]+battle$)"
+        },
+        {
+            "game": "Pokemon Colosseum",
+            "file": "jingles/gc/Pokemon Colosseum (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+colosseum$|pokemon[^a-z0-9]+colosseum[^a-z0-9]+title$|gc[^a-z0-9]+pokemon[^a-z0-9]+colosseum$|gc[^a-z0-9]+pokemon[^a-z0-9]+colosseum[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon XD Gale of Darkness",
+            "file": "jingles/gc/Pokemon XD Gale of Darkness (Purification Fanfare).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness$|pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+purification[^a-z0-9]+fanfare$|gc[^a-z0-9]+pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness$|gc[^a-z0-9]+pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+purification[^a-z0-9]+fanfare$)"
+        },
+        {
+            "game": "Pokemon XD Gale of Darkness",
+            "file": "jingles/gc/Pokemon XD Gale of Darkness (Shadow Lugia Battle).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness$|pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+shadow[^a-z0-9]+lugia[^a-z0-9]+battle$|gc[^a-z0-9]+pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness$|gc[^a-z0-9]+pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+shadow[^a-z0-9]+lugia[^a-z0-9]+battle$)"
+        },
+        {
+            "game": "Pokemon XD Gale of Darkness",
+            "file": "jingles/gc/Pokemon XD Gale of Darkness (Shadow Lugia Theme).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness$|pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+shadow[^a-z0-9]+lugia[^a-z0-9]+theme$|gc[^a-z0-9]+pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness$|gc[^a-z0-9]+pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+shadow[^a-z0-9]+lugia[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Pokemon XD Gale of Darkness",
+            "file": "jingles/gc/Pokemon XD Gale of Darkness (Title Short).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness$|pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+title[^a-z0-9]+short$|gc[^a-z0-9]+pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness$|gc[^a-z0-9]+pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+title[^a-z0-9]+short$)"
+        },
+        {
+            "game": "Pokemon XD Gale of Darkness",
+            "file": "jingles/gc/Pokemon XD Gale of Darkness (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness$|pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+title$|gc[^a-z0-9]+pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness$|gc[^a-z0-9]+pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon XD Gale of Darkness",
+            "file": "jingles/gc/Pokemon XD Gale of Darkness (Victory Fanfare).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness$|pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+victory[^a-z0-9]+fanfare$|gc[^a-z0-9]+pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness$|gc[^a-z0-9]+pokemon[^a-z0-9]+xd[^a-z0-9]+gale[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+victory[^a-z0-9]+fanfare$)"
+        },
+        {
+            "game": "Super Mario Sunshine",
+            "file": "jingles/gc/Super Mario Sunshine (Have a Relaxing Vacation).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+sunshine$|super[^a-z0-9]+mario[^a-z0-9]+sunshine[^a-z0-9]+have[^a-z0-9]+a[^a-z0-9]+relaxing[^a-z0-9]+vacation$|gc[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+sunshine$|gc[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+sunshine[^a-z0-9]+have[^a-z0-9]+a[^a-z0-9]+relaxing[^a-z0-9]+vacation$)"
+        },
+        {
+            "game": "Super Mario Sunshine",
+            "file": "jingles/gc/Super Mario Sunshine (Opening Demo).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+sunshine$|super[^a-z0-9]+mario[^a-z0-9]+sunshine[^a-z0-9]+opening[^a-z0-9]+demo$|gc[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+sunshine$|gc[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+sunshine[^a-z0-9]+opening[^a-z0-9]+demo$)"
+        },
+        {
+            "game": "Super Mario Sunshine",
+            "file": "jingles/gc/Super Mario Sunshine (Title No Voice).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+sunshine$|super[^a-z0-9]+mario[^a-z0-9]+sunshine[^a-z0-9]+title[^a-z0-9]+no[^a-z0-9]+voice$|gc[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+sunshine$|gc[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+sunshine[^a-z0-9]+title[^a-z0-9]+no[^a-z0-9]+voice$)"
+        },
+        {
+            "game": "Super Mario Sunshine",
+            "file": "jingles/gc/Super Mario Sunshine (Title).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+sunshine$|super[^a-z0-9]+mario[^a-z0-9]+sunshine[^a-z0-9]+title$|gc[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+sunshine$|gc[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+sunshine[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Super Smash Bros Melee",
+            "file": "jingles/gc/Super Smash Bros Melee (Menu).mp3",
+            "regex": "(?:super[^a-z0-9]+smash[^a-z0-9]+bros[^a-z0-9]+melee$|super[^a-z0-9]+smash[^a-z0-9]+bros[^a-z0-9]+melee[^a-z0-9]+menu$|gc[^a-z0-9]+super[^a-z0-9]+smash[^a-z0-9]+bros[^a-z0-9]+melee$|gc[^a-z0-9]+super[^a-z0-9]+smash[^a-z0-9]+bros[^a-z0-9]+melee[^a-z0-9]+menu$)"
+        },
+        {
+            "game": "Super Smash Bros Melee",
+            "file": "jingles/gc/Super Smash Bros Melee (Opening).mp3",
+            "regex": "(?:super[^a-z0-9]+smash[^a-z0-9]+bros[^a-z0-9]+melee$|super[^a-z0-9]+smash[^a-z0-9]+bros[^a-z0-9]+melee[^a-z0-9]+opening$|gc[^a-z0-9]+super[^a-z0-9]+smash[^a-z0-9]+bros[^a-z0-9]+melee$|gc[^a-z0-9]+super[^a-z0-9]+smash[^a-z0-9]+bros[^a-z0-9]+melee[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "The Legend of Zelda The Wind Waker",
+            "file": "jingles/gc/The Legend of Zelda The Wind Waker (Menu).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+the[^a-z0-9]+wind[^a-z0-9]+waker$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+the[^a-z0-9]+wind[^a-z0-9]+waker[^a-z0-9]+menu$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+the[^a-z0-9]+wind[^a-z0-9]+waker$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+the[^a-z0-9]+wind[^a-z0-9]+waker[^a-z0-9]+menu$)"
+        },
+        {
+            "game": "The Legend of Zelda The Wind Waker",
+            "file": "jingles/gc/The Legend of Zelda The Wind Waker (Rupee).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+the[^a-z0-9]+wind[^a-z0-9]+waker$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+the[^a-z0-9]+wind[^a-z0-9]+waker[^a-z0-9]+rupee$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+the[^a-z0-9]+wind[^a-z0-9]+waker$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+the[^a-z0-9]+wind[^a-z0-9]+waker[^a-z0-9]+rupee$)"
+        },
+        {
+            "game": "The Legend of Zelda The Wind Waker",
+            "file": "jingles/gc/The Legend of Zelda The Wind Waker (Title).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+the[^a-z0-9]+wind[^a-z0-9]+waker$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+the[^a-z0-9]+wind[^a-z0-9]+waker[^a-z0-9]+title$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+the[^a-z0-9]+wind[^a-z0-9]+waker$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+the[^a-z0-9]+wind[^a-z0-9]+waker[^a-z0-9]+title$)"
+        },
+        {
+            "game": "The Legend of Zelda Twilight Princess",
+            "file": "jingles/gc/The Legend of Zelda Twilight Princess (Horse Grass).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess[^a-z0-9]+horse[^a-z0-9]+grass$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess[^a-z0-9]+horse[^a-z0-9]+grass$)"
+        },
+        {
+            "game": "The Legend of Zelda Twilight Princess",
+            "file": "jingles/gc/The Legend of Zelda Twilight Princess (Item).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess[^a-z0-9]+item$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess[^a-z0-9]+item$)"
+        },
+        {
+            "game": "The Legend of Zelda Twilight Princess",
+            "file": "jingles/gc/The Legend of Zelda Twilight Princess (Menu).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess[^a-z0-9]+menu$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess[^a-z0-9]+menu$)"
+        },
+        {
+            "game": "The Legend of Zelda Twilight Princess",
+            "file": "jingles/gc/The Legend of Zelda Twilight Princess (Rupee).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess[^a-z0-9]+rupee$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess[^a-z0-9]+rupee$)"
+        },
+        {
+            "game": "The Legend of Zelda Twilight Princess",
+            "file": "jingles/gc/The Legend of Zelda Twilight Princess (Title).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess[^a-z0-9]+title$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess[^a-z0-9]+title$)"
+        },
+        {
+            "game": "The Legend of Zelda Twilight Princess",
+            "file": "jingles/gc/The Legend of Zelda Twilight Princess (Wii Jingle).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess[^a-z0-9]+wii[^a-z0-9]+jingle$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess$|gc[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+twilight[^a-z0-9]+princess[^a-z0-9]+wii[^a-z0-9]+jingle$)"
+        }
+    ],
+    "n64": [
+        {
+            "game": "GoldenEye 007",
+            "file": "jingles/n64/GoldenEye 007 (Death).mp3",
+            "regex": "(?:goldeneye[^a-z0-9]+007$|goldeneye[^a-z0-9]+007[^a-z0-9]+death$|n64[^a-z0-9]+goldeneye[^a-z0-9]+007$|n64[^a-z0-9]+goldeneye[^a-z0-9]+007[^a-z0-9]+death$)"
+        },
+        {
+            "game": "GoldenEye 007",
+            "file": "jingles/n64/GoldenEye 007 (James Bond).mp3",
+            "regex": "(?:goldeneye[^a-z0-9]+007$|goldeneye[^a-z0-9]+007[^a-z0-9]+james[^a-z0-9]+bond$|n64[^a-z0-9]+goldeneye[^a-z0-9]+007$|n64[^a-z0-9]+goldeneye[^a-z0-9]+007[^a-z0-9]+james[^a-z0-9]+bond$)"
+        },
+        {
+            "game": "GoldenEye 007",
+            "file": "jingles/n64/GoldenEye 007 (Mission Death).mp3",
+            "regex": "(?:goldeneye[^a-z0-9]+007$|goldeneye[^a-z0-9]+007[^a-z0-9]+mission[^a-z0-9]+death$|n64[^a-z0-9]+goldeneye[^a-z0-9]+007$|n64[^a-z0-9]+goldeneye[^a-z0-9]+007[^a-z0-9]+mission[^a-z0-9]+death$)"
+        },
+        {
+            "game": "GoldenEye 007",
+            "file": "jingles/n64/GoldenEye 007 (Mission Select).mp3",
+            "regex": "(?:goldeneye[^a-z0-9]+007$|goldeneye[^a-z0-9]+007[^a-z0-9]+mission[^a-z0-9]+select$|n64[^a-z0-9]+goldeneye[^a-z0-9]+007$|n64[^a-z0-9]+goldeneye[^a-z0-9]+007[^a-z0-9]+mission[^a-z0-9]+select$)"
+        },
+        {
+            "game": "GoldenEye 007",
+            "file": "jingles/n64/GoldenEye 007 (Multiplayer Death).mp3",
+            "regex": "(?:goldeneye[^a-z0-9]+007$|goldeneye[^a-z0-9]+007[^a-z0-9]+multiplayer[^a-z0-9]+death$|n64[^a-z0-9]+goldeneye[^a-z0-9]+007$|n64[^a-z0-9]+goldeneye[^a-z0-9]+007[^a-z0-9]+multiplayer[^a-z0-9]+death$)"
+        },
+        {
+            "game": "GoldenEye 007",
+            "file": "jingles/n64/GoldenEye 007 (Watch Theme).mp3",
+            "regex": "(?:goldeneye[^a-z0-9]+007$|goldeneye[^a-z0-9]+007[^a-z0-9]+watch[^a-z0-9]+theme$|n64[^a-z0-9]+goldeneye[^a-z0-9]+007$|n64[^a-z0-9]+goldeneye[^a-z0-9]+007[^a-z0-9]+watch[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Mario Party 2",
+            "file": "jingles/n64/Mario Party 2 (Let the Game Begin).mp3",
+            "regex": "(?:mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)$|mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)[^a-z0-9]+let[^a-z0-9]+the[^a-z0-9]+game[^a-z0-9]+begin$|n64[^a-z0-9]+mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)$|n64[^a-z0-9]+mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)[^a-z0-9]+let[^a-z0-9]+the[^a-z0-9]+game[^a-z0-9]+begin$)"
+        },
+        {
+            "game": "Mario Party 2",
+            "file": "jingles/n64/Mario Party 2 (Story Intro Short).mp3",
+            "regex": "(?:mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)$|mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)[^a-z0-9]+story[^a-z0-9]+intro[^a-z0-9]+short$|n64[^a-z0-9]+mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)$|n64[^a-z0-9]+mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)[^a-z0-9]+story[^a-z0-9]+intro[^a-z0-9]+short$)"
+        },
+        {
+            "game": "Mario Party 2",
+            "file": "jingles/n64/Mario Party 2 (Story Intro).mp3",
+            "regex": "(?:mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)$|mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)[^a-z0-9]+story[^a-z0-9]+intro$|n64[^a-z0-9]+mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)$|n64[^a-z0-9]+mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)[^a-z0-9]+story[^a-z0-9]+intro$)"
+        },
+        {
+            "game": "Mario Party 2",
+            "file": "jingles/n64/Mario Party 2 (The Way to Play).mp3",
+            "regex": "(?:mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)$|mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)[^a-z0-9]+the[^a-z0-9]+way[^a-z0-9]+to[^a-z0-9]+play$|n64[^a-z0-9]+mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)$|n64[^a-z0-9]+mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)[^a-z0-9]+the[^a-z0-9]+way[^a-z0-9]+to[^a-z0-9]+play$)"
+        },
+        {
+            "game": "Mario Party 2",
+            "file": "jingles/n64/Mario Party 2 (Title).mp3",
+            "regex": "(?:mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)$|mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)[^a-z0-9]+title$|n64[^a-z0-9]+mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)$|n64[^a-z0-9]+mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Mario Party 2",
+            "file": "jingles/n64/Mario Party 2 (Welcome to Mario Land).mp3",
+            "regex": "(?:mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)$|mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)[^a-z0-9]+welcome[^a-z0-9]+to[^a-z0-9]+mario[^a-z0-9]+land$|n64[^a-z0-9]+mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)$|n64[^a-z0-9]+mario[^a-z0-9]+party[^a-z0-9]+(?:2|ii)[^a-z0-9]+welcome[^a-z0-9]+to[^a-z0-9]+mario[^a-z0-9]+land$)"
+        },
+        {
+            "game": "Pokemon Snap",
+            "file": "jingles/n64/Pokemon Snap (Course Select).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+snap$|pokemon[^a-z0-9]+snap[^a-z0-9]+course[^a-z0-9]+select$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap[^a-z0-9]+course[^a-z0-9]+select$)"
+        },
+        {
+            "game": "Pokemon Snap",
+            "file": "jingles/n64/Pokemon Snap (Laboratory Short).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+snap$|pokemon[^a-z0-9]+snap[^a-z0-9]+laboratory[^a-z0-9]+short$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap[^a-z0-9]+laboratory[^a-z0-9]+short$)"
+        },
+        {
+            "game": "Pokemon Snap",
+            "file": "jingles/n64/Pokemon Snap (Laboratory).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+snap$|pokemon[^a-z0-9]+snap[^a-z0-9]+laboratory$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap[^a-z0-9]+laboratory$)"
+        },
+        {
+            "game": "Pokemon Snap",
+            "file": "jingles/n64/Pokemon Snap (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+snap$|pokemon[^a-z0-9]+snap[^a-z0-9]+opening$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Snap",
+            "file": "jingles/n64/Pokemon Snap (Rainbow Course).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+snap$|pokemon[^a-z0-9]+snap[^a-z0-9]+rainbow[^a-z0-9]+course$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap[^a-z0-9]+rainbow[^a-z0-9]+course$)"
+        },
+        {
+            "game": "Pokemon Snap",
+            "file": "jingles/n64/Pokemon Snap (Title Short).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+snap$|pokemon[^a-z0-9]+snap[^a-z0-9]+title[^a-z0-9]+short$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap[^a-z0-9]+title[^a-z0-9]+short$)"
+        },
+        {
+            "game": "Pokemon Snap",
+            "file": "jingles/n64/Pokemon Snap (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+snap$|pokemon[^a-z0-9]+snap[^a-z0-9]+title$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Snap",
+            "file": "jingles/n64/Pokemon Snap (Young Photographer).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+snap$|pokemon[^a-z0-9]+snap[^a-z0-9]+young[^a-z0-9]+photographer$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap$|n64[^a-z0-9]+pokemon[^a-z0-9]+snap[^a-z0-9]+young[^a-z0-9]+photographer$)"
+        },
+        {
+            "game": "Pokemon Stadium",
+            "file": "jingles/n64/Pokemon Stadium (Battle End).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+stadium$|pokemon[^a-z0-9]+stadium[^a-z0-9]+battle[^a-z0-9]+end$|n64[^a-z0-9]+pokemon[^a-z0-9]+stadium$|n64[^a-z0-9]+pokemon[^a-z0-9]+stadium[^a-z0-9]+battle[^a-z0-9]+end$)"
+        },
+        {
+            "game": "Pokemon Stadium",
+            "file": "jingles/n64/Pokemon Stadium (Map).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+stadium$|pokemon[^a-z0-9]+stadium[^a-z0-9]+map$|n64[^a-z0-9]+pokemon[^a-z0-9]+stadium$|n64[^a-z0-9]+pokemon[^a-z0-9]+stadium[^a-z0-9]+map$)"
+        },
+        {
+            "game": "Pokemon Stadium",
+            "file": "jingles/n64/Pokemon Stadium (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+stadium$|pokemon[^a-z0-9]+stadium[^a-z0-9]+opening$|n64[^a-z0-9]+pokemon[^a-z0-9]+stadium$|n64[^a-z0-9]+pokemon[^a-z0-9]+stadium[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Pokemon Stadium",
+            "file": "jingles/n64/Pokemon Stadium (Pokemon Select).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+stadium$|pokemon[^a-z0-9]+stadium[^a-z0-9]+pokemon[^a-z0-9]+select$|n64[^a-z0-9]+pokemon[^a-z0-9]+stadium$|n64[^a-z0-9]+pokemon[^a-z0-9]+stadium[^a-z0-9]+pokemon[^a-z0-9]+select$)"
+        },
+        {
+            "game": "Pokemon Stadium",
+            "file": "jingles/n64/Pokemon Stadium (Stadium).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+stadium$|pokemon[^a-z0-9]+stadium[^a-z0-9]+stadium$|n64[^a-z0-9]+pokemon[^a-z0-9]+stadium$|n64[^a-z0-9]+pokemon[^a-z0-9]+stadium[^a-z0-9]+stadium$)"
+        },
+        {
+            "game": "Pokemon Stadium",
+            "file": "jingles/n64/Pokemon Stadium (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+stadium$|pokemon[^a-z0-9]+stadium[^a-z0-9]+title$|n64[^a-z0-9]+pokemon[^a-z0-9]+stadium$|n64[^a-z0-9]+pokemon[^a-z0-9]+stadium[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Stadium",
+            "file": "jingles/n64/Pokemon Stadium (Vs Intro).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+stadium$|pokemon[^a-z0-9]+stadium[^a-z0-9]+vs[^a-z0-9]+intro$|n64[^a-z0-9]+pokemon[^a-z0-9]+stadium$|n64[^a-z0-9]+pokemon[^a-z0-9]+stadium[^a-z0-9]+vs[^a-z0-9]+intro$)"
+        },
+        {
+            "game": "Rocket Robot on Wheels",
+            "file": "jingles/n64/Rocket Robot on Wheels (Introduction).mp3",
+            "regex": "(?:rocket[^a-z0-9]+robot[^a-z0-9]+on[^a-z0-9]+wheels$|rocket[^a-z0-9]+robot[^a-z0-9]+on[^a-z0-9]+wheels[^a-z0-9]+introduction$|n64[^a-z0-9]+rocket[^a-z0-9]+robot[^a-z0-9]+on[^a-z0-9]+wheels$|n64[^a-z0-9]+rocket[^a-z0-9]+robot[^a-z0-9]+on[^a-z0-9]+wheels[^a-z0-9]+introduction$)"
+        },
+        {
+            "game": "Rocket Robot on Wheels",
+            "file": "jingles/n64/Rocket Robot on Wheels (Load Game).mp3",
+            "regex": "(?:rocket[^a-z0-9]+robot[^a-z0-9]+on[^a-z0-9]+wheels$|rocket[^a-z0-9]+robot[^a-z0-9]+on[^a-z0-9]+wheels[^a-z0-9]+load[^a-z0-9]+game$|n64[^a-z0-9]+rocket[^a-z0-9]+robot[^a-z0-9]+on[^a-z0-9]+wheels$|n64[^a-z0-9]+rocket[^a-z0-9]+robot[^a-z0-9]+on[^a-z0-9]+wheels[^a-z0-9]+load[^a-z0-9]+game$)"
+        },
+        {
+            "game": "Rocket Robot on Wheels",
+            "file": "jingles/n64/Rocket Robot on Wheels (Whoopie World).mp3",
+            "regex": "(?:rocket[^a-z0-9]+robot[^a-z0-9]+on[^a-z0-9]+wheels$|rocket[^a-z0-9]+robot[^a-z0-9]+on[^a-z0-9]+wheels[^a-z0-9]+whoopie[^a-z0-9]+world$|n64[^a-z0-9]+rocket[^a-z0-9]+robot[^a-z0-9]+on[^a-z0-9]+wheels$|n64[^a-z0-9]+rocket[^a-z0-9]+robot[^a-z0-9]+on[^a-z0-9]+wheels[^a-z0-9]+whoopie[^a-z0-9]+world$)"
+        },
+        {
+            "game": "Super Mario 64",
+            "file": "jingles/n64/Super Mario 64 (Bowsers Message).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+64$|super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+bowsers[^a-z0-9]+message$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+bowsers[^a-z0-9]+message$)"
+        },
+        {
+            "game": "Super Mario 64",
+            "file": "jingles/n64/Super Mario 64 (Course Clear).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+64$|super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+course[^a-z0-9]+clear$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+course[^a-z0-9]+clear$)"
+        },
+        {
+            "game": "Super Mario 64",
+            "file": "jingles/n64/Super Mario 64 (File Select).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+64$|super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+file[^a-z0-9]+select$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+file[^a-z0-9]+select$)"
+        },
+        {
+            "game": "Super Mario 64",
+            "file": "jingles/n64/Super Mario 64 (Lakitus Message).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+64$|super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+lakitus[^a-z0-9]+message$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+lakitus[^a-z0-9]+message$)"
+        },
+        {
+            "game": "Super Mario 64",
+            "file": "jingles/n64/Super Mario 64 (Opening).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+64$|super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+opening$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "Super Mario 64",
+            "file": "jingles/n64/Super Mario 64 (Peachs Letter).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+64$|super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+peachs[^a-z0-9]+letter$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+peachs[^a-z0-9]+letter$)"
+        },
+        {
+            "game": "Super Mario 64",
+            "file": "jingles/n64/Super Mario 64 (Power Star).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+64$|super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+power[^a-z0-9]+star$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+power[^a-z0-9]+star$)"
+        },
+        {
+            "game": "Super Mario 64",
+            "file": "jingles/n64/Super Mario 64 (Title Theme).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+64$|super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+title[^a-z0-9]+theme$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+title[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Super Mario 64",
+            "file": "jingles/n64/Super Mario 64 (Toads Message).mp3",
+            "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+64$|super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+toads[^a-z0-9]+message$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64$|n64[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+64[^a-z0-9]+toads[^a-z0-9]+message$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Elders Song).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+elders[^a-z0-9]+song$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+elders[^a-z0-9]+song$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Eponas Song).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+eponas[^a-z0-9]+song$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+eponas[^a-z0-9]+song$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Fairy Fountain).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+fairy[^a-z0-9]+fountain$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+fairy[^a-z0-9]+fountain$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Get Mask).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+get[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+get[^a-z0-9]+mask$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Get Ocarina).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+get[^a-z0-9]+ocarina$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+get[^a-z0-9]+ocarina$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Goron Lullaby).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+goron[^a-z0-9]+lullaby$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+goron[^a-z0-9]+lullaby$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Majoras Theme).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+majoras[^a-z0-9]+theme$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+majoras[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Oath to Order).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+oath[^a-z0-9]+to[^a-z0-9]+order$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+oath[^a-z0-9]+to[^a-z0-9]+order$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Shop).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+shop$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+shop$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Sonata of Awakening).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+sonata[^a-z0-9]+of[^a-z0-9]+awakening$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+sonata[^a-z0-9]+of[^a-z0-9]+awakening$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Song of Double Time).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+double[^a-z0-9]+time$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+double[^a-z0-9]+time$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Song of Healing).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+healing$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+healing$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Song of Soaring).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+soaring$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+soaring$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Song of Storms).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+storms$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+storms$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Song of Time Inverted).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+inverted$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+inverted$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Song of Time).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+time$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+time$)"
+        },
+        {
+            "game": "The Legend of Zelda Majoras Mask",
+            "file": "jingles/n64/The Legend of Zelda Majoras Mask (Zelda).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+zelda$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+majoras[^a-z0-9]+mask[^a-z0-9]+zelda$)"
+        },
+        {
+            "game": "The Legend of Zelda Ocarina of Time",
+            "file": "jingles/n64/The Legend of Zelda Ocarina of Time (Enter Ganondorf).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+enter[^a-z0-9]+ganondorf$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+enter[^a-z0-9]+ganondorf$)"
+        },
+        {
+            "game": "The Legend of Zelda Ocarina of Time",
+            "file": "jingles/n64/The Legend of Zelda Ocarina of Time (Eponas Song).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+eponas[^a-z0-9]+song$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+eponas[^a-z0-9]+song$)"
+        },
+        {
+            "game": "The Legend of Zelda Ocarina of Time",
+            "file": "jingles/n64/The Legend of Zelda Ocarina of Time (Get Ocarina).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+get[^a-z0-9]+ocarina$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+get[^a-z0-9]+ocarina$)"
+        },
+        {
+            "game": "The Legend of Zelda Ocarina of Time",
+            "file": "jingles/n64/The Legend of Zelda Ocarina of Time (House).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+house$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+house$)"
+        },
+        {
+            "game": "The Legend of Zelda Ocarina of Time",
+            "file": "jingles/n64/The Legend of Zelda Ocarina of Time (Item Catch).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+item[^a-z0-9]+catch$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+item[^a-z0-9]+catch$)"
+        },
+        {
+            "game": "The Legend of Zelda Ocarina of Time",
+            "file": "jingles/n64/The Legend of Zelda Ocarina of Time (Small Item Catch).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+small[^a-z0-9]+item[^a-z0-9]+catch$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+small[^a-z0-9]+item[^a-z0-9]+catch$)"
+        },
+        {
+            "game": "The Legend of Zelda Ocarina of Time",
+            "file": "jingles/n64/The Legend of Zelda Ocarina of Time (Song of Storms).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+storms$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+storms$)"
+        },
+        {
+            "game": "The Legend of Zelda Ocarina of Time",
+            "file": "jingles/n64/The Legend of Zelda Ocarina of Time (Song of Time).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+time$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+song[^a-z0-9]+of[^a-z0-9]+time$)"
+        },
+        {
+            "game": "The Legend of Zelda Ocarina of Time",
+            "file": "jingles/n64/The Legend of Zelda Ocarina of Time (Title Theme).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+title[^a-z0-9]+theme$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+title[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "The Legend of Zelda Ocarina of Time",
+            "file": "jingles/n64/The Legend of Zelda Ocarina of Time (Zeldas Lullaby).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+zeldas[^a-z0-9]+lullaby$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+zeldas[^a-z0-9]+lullaby$)"
+        },
+        {
+            "game": "The Legend of Zelda Ocarina of Time",
+            "file": "jingles/n64/The Legend of Zelda Ocarina of Time (Zeldas Ocarina).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+zeldas[^a-z0-9]+ocarina$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time$|n64[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+ocarina[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+zeldas[^a-z0-9]+ocarina$)"
+        }
+    ],
     "nds": [
+        {
+            "game": "Mario Kart DS",
+            "file": "jingles/nds/Mario Kart DS (Here We Go).mp3",
+            "regex": "(?:mario[^a-z0-9]+kart[^a-z0-9]+ds$|mario[^a-z0-9]+kart[^a-z0-9]+ds[^a-z0-9]+here[^a-z0-9]+we[^a-z0-9]+go$|nds[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+ds$|nds[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+ds[^a-z0-9]+here[^a-z0-9]+we[^a-z0-9]+go$)"
+        },
+        {
+            "game": "Mario Kart DS",
+            "file": "jingles/nds/Mario Kart DS (Main Menu).mp3",
+            "regex": "(?:mario[^a-z0-9]+kart[^a-z0-9]+ds$|mario[^a-z0-9]+kart[^a-z0-9]+ds[^a-z0-9]+main[^a-z0-9]+menu$|nds[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+ds$|nds[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+ds[^a-z0-9]+main[^a-z0-9]+menu$)"
+        },
+        {
+            "game": "New Super Mario Bros",
+            "file": "jingles/nds/New Super Mario Bros (Course Clear).mp3",
+            "regex": "(?:new[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+bros$|new[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+bros[^a-z0-9]+course[^a-z0-9]+clear$|nds[^a-z0-9]+new[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+bros$|nds[^a-z0-9]+new[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+bros[^a-z0-9]+course[^a-z0-9]+clear$)"
+        },
+        {
+            "game": "New Super Mario Bros",
+            "file": "jingles/nds/New Super Mario Bros (Ground Theme).mp3",
+            "regex": "(?:new[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+bros$|new[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+bros[^a-z0-9]+ground[^a-z0-9]+theme$|nds[^a-z0-9]+new[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+bros$|nds[^a-z0-9]+new[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+bros[^a-z0-9]+ground[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "New Super Mario Bros",
+            "file": "jingles/nds/New Super Mario Bros (Minigame Round Clear).mp3",
+            "regex": "(?:new[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+bros$|new[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+bros[^a-z0-9]+minigame[^a-z0-9]+round[^a-z0-9]+clear$|nds[^a-z0-9]+new[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+bros$|nds[^a-z0-9]+new[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+bros[^a-z0-9]+minigame[^a-z0-9]+round[^a-z0-9]+clear$)"
+        },
+        {
+            "game": "Pokemon Black",
+            "file": "jingles/nds/Pokemon Black (A New Adventure).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+black$|pokemon[^a-z0-9]+black[^a-z0-9]+a[^a-z0-9]+new[^a-z0-9]+adventure$|nds[^a-z0-9]+pokemon[^a-z0-9]+black$|nds[^a-z0-9]+pokemon[^a-z0-9]+black[^a-z0-9]+a[^a-z0-9]+new[^a-z0-9]+adventure$)"
+        },
+        {
+            "game": "Pokemon Black",
+            "file": "jingles/nds/Pokemon Black (The Day I Became King).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+black$|pokemon[^a-z0-9]+black[^a-z0-9]+the[^a-z0-9]+day[^a-z0-9]+(?:i|1)[^a-z0-9]+became[^a-z0-9]+king$|nds[^a-z0-9]+pokemon[^a-z0-9]+black$|nds[^a-z0-9]+pokemon[^a-z0-9]+black[^a-z0-9]+the[^a-z0-9]+day[^a-z0-9]+(?:i|1)[^a-z0-9]+became[^a-z0-9]+king$)"
+        },
+        {
+            "game": "Pokemon Black 2",
+            "file": "jingles/nds/Pokemon Black 2 (Opening 1).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+black[^a-z0-9]+(?:2|ii)$|pokemon[^a-z0-9]+black[^a-z0-9]+(?:2|ii)[^a-z0-9]+opening[^a-z0-9]+(?:1|i)$|nds[^a-z0-9]+pokemon[^a-z0-9]+black[^a-z0-9]+(?:2|ii)$|nds[^a-z0-9]+pokemon[^a-z0-9]+black[^a-z0-9]+(?:2|ii)[^a-z0-9]+opening[^a-z0-9]+(?:1|i)$)"
+        },
+        {
+            "game": "Pokemon Black 2",
+            "file": "jingles/nds/Pokemon Black 2 (Opening 2).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+black[^a-z0-9]+(?:2|ii)$|pokemon[^a-z0-9]+black[^a-z0-9]+(?:2|ii)[^a-z0-9]+opening[^a-z0-9]+(?:2|ii)$|nds[^a-z0-9]+pokemon[^a-z0-9]+black[^a-z0-9]+(?:2|ii)$|nds[^a-z0-9]+pokemon[^a-z0-9]+black[^a-z0-9]+(?:2|ii)[^a-z0-9]+opening[^a-z0-9]+(?:2|ii)$)"
+        },
         {
             "game": "Pokemon Diamond",
             "file": "jingles/nds/Pokemon Diamond (Opening).mp3",
@@ -10,6 +902,76 @@
             "game": "Pokemon Diamond",
             "file": "jingles/nds/Pokemon Diamond (Press Start).mp3",
             "regex": "(?:pokemon[^a-z0-9]+diamond$|pokemon[^a-z0-9]+diamond[^a-z0-9]+press[^a-z0-9]+start$|nds[^a-z0-9]+pokemon[^a-z0-9]+diamond$|nds[^a-z0-9]+pokemon[^a-z0-9]+diamond[^a-z0-9]+press[^a-z0-9]+start$)"
+        },
+        {
+            "game": "Pokemon HeartGold",
+            "file": "jingles/nds/Pokemon HeartGold (Opening Movie).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+heartgold$|pokemon[^a-z0-9]+heartgold[^a-z0-9]+opening[^a-z0-9]+movie$|nds[^a-z0-9]+pokemon[^a-z0-9]+heartgold$|nds[^a-z0-9]+pokemon[^a-z0-9]+heartgold[^a-z0-9]+opening[^a-z0-9]+movie$)"
+        },
+        {
+            "game": "Pokemon HeartGold",
+            "file": "jingles/nds/Pokemon HeartGold (Title Screen).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+heartgold$|pokemon[^a-z0-9]+heartgold[^a-z0-9]+title[^a-z0-9]+screen$|nds[^a-z0-9]+pokemon[^a-z0-9]+heartgold$|nds[^a-z0-9]+pokemon[^a-z0-9]+heartgold[^a-z0-9]+title[^a-z0-9]+screen$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Explorers of Darkness",
+            "file": "jingles/nds/Pokemon Mystery Dungeon Explorers of Darkness (A Grand Tale of Darkness and Darkness).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+a[^a-z0-9]+grand[^a-z0-9]+tale[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+and[^a-z0-9]+darkness$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+a[^a-z0-9]+grand[^a-z0-9]+tale[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+and[^a-z0-9]+darkness$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Explorers of Darkness",
+            "file": "jingles/nds/Pokemon Mystery Dungeon Explorers of Darkness (Title Theme).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+title[^a-z0-9]+theme$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+title[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Explorers of Darkness",
+            "file": "jingles/nds/Pokemon Mystery Dungeon Explorers of Darkness (Top Menu Theme).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+top[^a-z0-9]+menu[^a-z0-9]+theme$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+top[^a-z0-9]+menu[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Explorers of Darkness",
+            "file": "jingles/nds/Pokemon Mystery Dungeon Explorers of Darkness (Welcome to the World of Pokemon).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+welcome[^a-z0-9]+to[^a-z0-9]+the[^a-z0-9]+world[^a-z0-9]+of[^a-z0-9]+pokemon$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+darkness[^a-z0-9]+welcome[^a-z0-9]+to[^a-z0-9]+the[^a-z0-9]+world[^a-z0-9]+of[^a-z0-9]+pokemon$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Explorers of Sky",
+            "file": "jingles/nds/Pokemon Mystery Dungeon Explorers of Sky (A Grand Tale of Time and Darkness).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky[^a-z0-9]+a[^a-z0-9]+grand[^a-z0-9]+tale[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+and[^a-z0-9]+darkness$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky[^a-z0-9]+a[^a-z0-9]+grand[^a-z0-9]+tale[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+and[^a-z0-9]+darkness$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Explorers of Sky",
+            "file": "jingles/nds/Pokemon Mystery Dungeon Explorers of Sky (Title Theme).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky[^a-z0-9]+title[^a-z0-9]+theme$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky[^a-z0-9]+title[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Explorers of Sky",
+            "file": "jingles/nds/Pokemon Mystery Dungeon Explorers of Sky (Top Menu Theme).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky[^a-z0-9]+top[^a-z0-9]+menu[^a-z0-9]+theme$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky[^a-z0-9]+top[^a-z0-9]+menu[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Explorers of Sky",
+            "file": "jingles/nds/Pokemon Mystery Dungeon Explorers of Sky (Welcome to the World of Pokemon).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky[^a-z0-9]+welcome[^a-z0-9]+to[^a-z0-9]+the[^a-z0-9]+world[^a-z0-9]+of[^a-z0-9]+pokemon$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+sky[^a-z0-9]+welcome[^a-z0-9]+to[^a-z0-9]+the[^a-z0-9]+world[^a-z0-9]+of[^a-z0-9]+pokemon$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Explorers of Time",
+            "file": "jingles/nds/Pokemon Mystery Dungeon Explorers of Time (A Grand Tale of Time and Darkness).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+a[^a-z0-9]+grand[^a-z0-9]+tale[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+and[^a-z0-9]+darkness$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+a[^a-z0-9]+grand[^a-z0-9]+tale[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+and[^a-z0-9]+darkness$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Explorers of Time",
+            "file": "jingles/nds/Pokemon Mystery Dungeon Explorers of Time (Title Theme).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+title[^a-z0-9]+theme$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+title[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Explorers of Time",
+            "file": "jingles/nds/Pokemon Mystery Dungeon Explorers of Time (Top Menu Theme).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+top[^a-z0-9]+menu[^a-z0-9]+theme$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+top[^a-z0-9]+menu[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Explorers of Time",
+            "file": "jingles/nds/Pokemon Mystery Dungeon Explorers of Time (Welcome to the World of Pokemon).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+welcome[^a-z0-9]+to[^a-z0-9]+the[^a-z0-9]+world[^a-z0-9]+of[^a-z0-9]+pokemon$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time$|nds[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+explorers[^a-z0-9]+of[^a-z0-9]+time[^a-z0-9]+welcome[^a-z0-9]+to[^a-z0-9]+the[^a-z0-9]+world[^a-z0-9]+of[^a-z0-9]+pokemon$)"
         },
         {
             "game": "Pokemon Pearl",
@@ -30,6 +992,394 @@
             "game": "Pokemon Platinum",
             "file": "jingles/nds/Pokemon Platinum (Press Start).mp3",
             "regex": "(?:pokemon[^a-z0-9]+platinum$|pokemon[^a-z0-9]+platinum[^a-z0-9]+press[^a-z0-9]+start$|nds[^a-z0-9]+pokemon[^a-z0-9]+platinum$|nds[^a-z0-9]+pokemon[^a-z0-9]+platinum[^a-z0-9]+press[^a-z0-9]+start$)"
+        },
+        {
+            "game": "Pokemon Ranger",
+            "file": "jingles/nds/Pokemon Ranger (Fanfare).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger$|pokemon[^a-z0-9]+ranger[^a-z0-9]+fanfare$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+fanfare$)"
+        },
+        {
+            "game": "Pokemon Ranger",
+            "file": "jingles/nds/Pokemon Ranger (Jingle 2).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger$|pokemon[^a-z0-9]+ranger[^a-z0-9]+jingle[^a-z0-9]+(?:2|ii)$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+jingle[^a-z0-9]+(?:2|ii)$)"
+        },
+        {
+            "game": "Pokemon Ranger",
+            "file": "jingles/nds/Pokemon Ranger (Jingle).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger$|pokemon[^a-z0-9]+ranger[^a-z0-9]+jingle$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+jingle$)"
+        },
+        {
+            "game": "Pokemon Ranger",
+            "file": "jingles/nds/Pokemon Ranger (Mission Clear).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger$|pokemon[^a-z0-9]+ranger[^a-z0-9]+mission[^a-z0-9]+clear$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+mission[^a-z0-9]+clear$)"
+        },
+        {
+            "game": "Pokemon Ranger",
+            "file": "jingles/nds/Pokemon Ranger (Mission Receive).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger$|pokemon[^a-z0-9]+ranger[^a-z0-9]+mission[^a-z0-9]+receive$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+mission[^a-z0-9]+receive$)"
+        },
+        {
+            "game": "Pokemon Ranger",
+            "file": "jingles/nds/Pokemon Ranger (Mission Start).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger$|pokemon[^a-z0-9]+ranger[^a-z0-9]+mission[^a-z0-9]+start$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+mission[^a-z0-9]+start$)"
+        },
+        {
+            "game": "Pokemon Ranger",
+            "file": "jingles/nds/Pokemon Ranger (Ranger Base).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger$|pokemon[^a-z0-9]+ranger[^a-z0-9]+ranger[^a-z0-9]+base$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+ranger[^a-z0-9]+base$)"
+        },
+        {
+            "game": "Pokemon Ranger",
+            "file": "jingles/nds/Pokemon Ranger (Title Extended).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger$|pokemon[^a-z0-9]+ranger[^a-z0-9]+title[^a-z0-9]+extended$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+title[^a-z0-9]+extended$)"
+        },
+        {
+            "game": "Pokemon Ranger",
+            "file": "jingles/nds/Pokemon Ranger (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger$|pokemon[^a-z0-9]+ranger[^a-z0-9]+title$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Ranger Guardian Signs",
+            "file": "jingles/nds/Pokemon Ranger Guardian Signs (Level Up).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs$|pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs[^a-z0-9]+level[^a-z0-9]+up$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs[^a-z0-9]+level[^a-z0-9]+up$)"
+        },
+        {
+            "game": "Pokemon Ranger Guardian Signs",
+            "file": "jingles/nds/Pokemon Ranger Guardian Signs (Main Menu).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs$|pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs[^a-z0-9]+main[^a-z0-9]+menu$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs[^a-z0-9]+main[^a-z0-9]+menu$)"
+        },
+        {
+            "game": "Pokemon Ranger Guardian Signs",
+            "file": "jingles/nds/Pokemon Ranger Guardian Signs (Mission Clear).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs$|pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs[^a-z0-9]+mission[^a-z0-9]+clear$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs[^a-z0-9]+mission[^a-z0-9]+clear$)"
+        },
+        {
+            "game": "Pokemon Ranger Guardian Signs",
+            "file": "jingles/nds/Pokemon Ranger Guardian Signs (Mission Receive).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs$|pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs[^a-z0-9]+mission[^a-z0-9]+receive$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs[^a-z0-9]+mission[^a-z0-9]+receive$)"
+        },
+        {
+            "game": "Pokemon Ranger Guardian Signs",
+            "file": "jingles/nds/Pokemon Ranger Guardian Signs (Mission Start).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs$|pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs[^a-z0-9]+mission[^a-z0-9]+start$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs[^a-z0-9]+mission[^a-z0-9]+start$)"
+        },
+        {
+            "game": "Pokemon Ranger Guardian Signs",
+            "file": "jingles/nds/Pokemon Ranger Guardian Signs (Pichu).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs$|pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs[^a-z0-9]+pichu$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs[^a-z0-9]+pichu$)"
+        },
+        {
+            "game": "Pokemon Ranger Guardian Signs",
+            "file": "jingles/nds/Pokemon Ranger Guardian Signs (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs$|pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs[^a-z0-9]+title$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+guardian[^a-z0-9]+signs[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon Ranger Shadows of Almia",
+            "file": "jingles/nds/Pokemon Ranger Shadows of Almia (Jingle).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+jingle$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+jingle$)"
+        },
+        {
+            "game": "Pokemon Ranger Shadows of Almia",
+            "file": "jingles/nds/Pokemon Ranger Shadows of Almia (Level Up Fanfare).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+level[^a-z0-9]+up[^a-z0-9]+fanfare$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+level[^a-z0-9]+up[^a-z0-9]+fanfare$)"
+        },
+        {
+            "game": "Pokemon Ranger Shadows of Almia",
+            "file": "jingles/nds/Pokemon Ranger Shadows of Almia (Level Up).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+level[^a-z0-9]+up$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+level[^a-z0-9]+up$)"
+        },
+        {
+            "game": "Pokemon Ranger Shadows of Almia",
+            "file": "jingles/nds/Pokemon Ranger Shadows of Almia (Mission Clear).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+mission[^a-z0-9]+clear$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+mission[^a-z0-9]+clear$)"
+        },
+        {
+            "game": "Pokemon Ranger Shadows of Almia",
+            "file": "jingles/nds/Pokemon Ranger Shadows of Almia (Mission Receive).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+mission[^a-z0-9]+receive$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+mission[^a-z0-9]+receive$)"
+        },
+        {
+            "game": "Pokemon Ranger Shadows of Almia",
+            "file": "jingles/nds/Pokemon Ranger Shadows of Almia (Mission Start).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+mission[^a-z0-9]+start$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+mission[^a-z0-9]+start$)"
+        },
+        {
+            "game": "Pokemon Ranger Shadows of Almia",
+            "file": "jingles/nds/Pokemon Ranger Shadows of Almia (School Inside).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+school[^a-z0-9]+inside$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+school[^a-z0-9]+inside$)"
+        },
+        {
+            "game": "Pokemon Ranger Shadows of Almia",
+            "file": "jingles/nds/Pokemon Ranger Shadows of Almia (School Outside).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+school[^a-z0-9]+outside$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+school[^a-z0-9]+outside$)"
+        },
+        {
+            "game": "Pokemon Ranger Shadows of Almia",
+            "file": "jingles/nds/Pokemon Ranger Shadows of Almia (Title).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+title$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia$|nds[^a-z0-9]+pokemon[^a-z0-9]+ranger[^a-z0-9]+shadows[^a-z0-9]+of[^a-z0-9]+almia[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Pokemon SoulSilver",
+            "file": "jingles/nds/Pokemon SoulSilver (Opening Movie).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+soulsilver$|pokemon[^a-z0-9]+soulsilver[^a-z0-9]+opening[^a-z0-9]+movie$|nds[^a-z0-9]+pokemon[^a-z0-9]+soulsilver$|nds[^a-z0-9]+pokemon[^a-z0-9]+soulsilver[^a-z0-9]+opening[^a-z0-9]+movie$)"
+        },
+        {
+            "game": "Pokemon SoulSilver",
+            "file": "jingles/nds/Pokemon SoulSilver (Title Screen).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+soulsilver$|pokemon[^a-z0-9]+soulsilver[^a-z0-9]+title[^a-z0-9]+screen$|nds[^a-z0-9]+pokemon[^a-z0-9]+soulsilver$|nds[^a-z0-9]+pokemon[^a-z0-9]+soulsilver[^a-z0-9]+title[^a-z0-9]+screen$)"
+        },
+        {
+            "game": "Pokemon White",
+            "file": "jingles/nds/Pokemon White (A New Adventure).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+white$|pokemon[^a-z0-9]+white[^a-z0-9]+a[^a-z0-9]+new[^a-z0-9]+adventure$|nds[^a-z0-9]+pokemon[^a-z0-9]+white$|nds[^a-z0-9]+pokemon[^a-z0-9]+white[^a-z0-9]+a[^a-z0-9]+new[^a-z0-9]+adventure$)"
+        },
+        {
+            "game": "Pokemon White",
+            "file": "jingles/nds/Pokemon White (The Day I Became King).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+white$|pokemon[^a-z0-9]+white[^a-z0-9]+the[^a-z0-9]+day[^a-z0-9]+(?:i|1)[^a-z0-9]+became[^a-z0-9]+king$|nds[^a-z0-9]+pokemon[^a-z0-9]+white$|nds[^a-z0-9]+pokemon[^a-z0-9]+white[^a-z0-9]+the[^a-z0-9]+day[^a-z0-9]+(?:i|1)[^a-z0-9]+became[^a-z0-9]+king$)"
+        },
+        {
+            "game": "Pokemon White 2",
+            "file": "jingles/nds/Pokemon White 2 (Opening 1).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+white[^a-z0-9]+(?:2|ii)$|pokemon[^a-z0-9]+white[^a-z0-9]+(?:2|ii)[^a-z0-9]+opening[^a-z0-9]+(?:1|i)$|nds[^a-z0-9]+pokemon[^a-z0-9]+white[^a-z0-9]+(?:2|ii)$|nds[^a-z0-9]+pokemon[^a-z0-9]+white[^a-z0-9]+(?:2|ii)[^a-z0-9]+opening[^a-z0-9]+(?:1|i)$)"
+        },
+        {
+            "game": "Pokemon White 2",
+            "file": "jingles/nds/Pokemon White 2 (Opening 2).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+white[^a-z0-9]+(?:2|ii)$|pokemon[^a-z0-9]+white[^a-z0-9]+(?:2|ii)[^a-z0-9]+opening[^a-z0-9]+(?:2|ii)$|nds[^a-z0-9]+pokemon[^a-z0-9]+white[^a-z0-9]+(?:2|ii)$|nds[^a-z0-9]+pokemon[^a-z0-9]+white[^a-z0-9]+(?:2|ii)[^a-z0-9]+opening[^a-z0-9]+(?:2|ii)$)"
+        },
+        {
+            "game": "Pokemon White 2",
+            "file": "jingles/nds/Pokemon White 2 (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+white[^a-z0-9]+(?:2|ii)$|pokemon[^a-z0-9]+white[^a-z0-9]+(?:2|ii)[^a-z0-9]+opening$|nds[^a-z0-9]+pokemon[^a-z0-9]+white[^a-z0-9]+(?:2|ii)$|nds[^a-z0-9]+pokemon[^a-z0-9]+white[^a-z0-9]+(?:2|ii)[^a-z0-9]+opening$)"
+        }
+    ],
+    "steam": [
+        {
+            "game": "Dust An Elysian Tail",
+            "file": "jingles/steam/Dust An Elysian Tail (Falana).mp3",
+            "regex": "(?:dust[^a-z0-9]+an[^a-z0-9]+elysian[^a-z0-9]+tail$|dust[^a-z0-9]+an[^a-z0-9]+elysian[^a-z0-9]+tail[^a-z0-9]+falana$|steam[^a-z0-9]+dust[^a-z0-9]+an[^a-z0-9]+elysian[^a-z0-9]+tail$|steam[^a-z0-9]+dust[^a-z0-9]+an[^a-z0-9]+elysian[^a-z0-9]+tail[^a-z0-9]+falana$)"
+        },
+        {
+            "game": "Dust An Elysian Tail",
+            "file": "jingles/steam/Dust An Elysian Tail (Time).mp3",
+            "regex": "(?:dust[^a-z0-9]+an[^a-z0-9]+elysian[^a-z0-9]+tail$|dust[^a-z0-9]+an[^a-z0-9]+elysian[^a-z0-9]+tail[^a-z0-9]+time$|steam[^a-z0-9]+dust[^a-z0-9]+an[^a-z0-9]+elysian[^a-z0-9]+tail$|steam[^a-z0-9]+dust[^a-z0-9]+an[^a-z0-9]+elysian[^a-z0-9]+tail[^a-z0-9]+time$)"
+        },
+        {
+            "game": "Dust An Elysian Tail",
+            "file": "jingles/steam/Dust An Elysian Tail (Trailer Logo).mp3",
+            "regex": "(?:dust[^a-z0-9]+an[^a-z0-9]+elysian[^a-z0-9]+tail$|dust[^a-z0-9]+an[^a-z0-9]+elysian[^a-z0-9]+tail[^a-z0-9]+trailer[^a-z0-9]+logo$|steam[^a-z0-9]+dust[^a-z0-9]+an[^a-z0-9]+elysian[^a-z0-9]+tail$|steam[^a-z0-9]+dust[^a-z0-9]+an[^a-z0-9]+elysian[^a-z0-9]+tail[^a-z0-9]+trailer[^a-z0-9]+logo$)"
+        },
+        {
+            "game": "Fallout",
+            "file": "jingles/steam/Fallout (Maybe).mp3",
+            "regex": "(?:fallout$|fallout[^a-z0-9]+maybe$|steam[^a-z0-9]+fallout$|steam[^a-z0-9]+fallout[^a-z0-9]+maybe$)"
+        },
+        {
+            "game": "Minecraft Dungeons",
+            "file": "jingles/steam/Minecraft Dungeons (Finally).mp3",
+            "regex": "(?:minecraft[^a-z0-9]+dungeons$|minecraft[^a-z0-9]+dungeons[^a-z0-9]+finally$|steam[^a-z0-9]+minecraft[^a-z0-9]+dungeons$|steam[^a-z0-9]+minecraft[^a-z0-9]+dungeons[^a-z0-9]+finally$)"
+        },
+        {
+            "game": "Minecraft Legends",
+            "file": "jingles/steam/Minecraft Legends (Repercussions).mp3",
+            "regex": "(?:minecraft[^a-z0-9]+legends$|minecraft[^a-z0-9]+legends[^a-z0-9]+repercussions$|steam[^a-z0-9]+minecraft[^a-z0-9]+legends$|steam[^a-z0-9]+minecraft[^a-z0-9]+legends[^a-z0-9]+repercussions$)"
+        },
+        {
+            "game": "Minecraft Story Mode",
+            "file": "jingles/steam/Minecraft Story Mode (IvorStingC).mp3",
+            "regex": "(?:minecraft[^a-z0-9]+story[^a-z0-9]+mode$|minecraft[^a-z0-9]+story[^a-z0-9]+mode[^a-z0-9]+ivorstingc$|steam[^a-z0-9]+minecraft[^a-z0-9]+story[^a-z0-9]+mode$|steam[^a-z0-9]+minecraft[^a-z0-9]+story[^a-z0-9]+mode[^a-z0-9]+ivorstingc$)"
+        },
+        {
+            "game": "Minecraft Story Mode",
+            "file": "jingles/steam/Minecraft Story Mode (OrderStinger01).mp3",
+            "regex": "(?:minecraft[^a-z0-9]+story[^a-z0-9]+mode$|minecraft[^a-z0-9]+story[^a-z0-9]+mode[^a-z0-9]+orderstinger01$|steam[^a-z0-9]+minecraft[^a-z0-9]+story[^a-z0-9]+mode$|steam[^a-z0-9]+minecraft[^a-z0-9]+story[^a-z0-9]+mode[^a-z0-9]+orderstinger01$)"
+        }
+    ],
+    "switch": [
+        {
+            "game": "Animal Crossing New Horizons",
+            "file": "jingles/switch/Animal Crossing New Horizons (Completion Fanfare).mp3",
+            "regex": "(?:animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons$|animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons[^a-z0-9]+completion[^a-z0-9]+fanfare$|switch[^a-z0-9]+animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons$|switch[^a-z0-9]+animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons[^a-z0-9]+completion[^a-z0-9]+fanfare$)"
+        },
+        {
+            "game": "Animal Crossing New Horizons",
+            "file": "jingles/switch/Animal Crossing New Horizons (Main Theme).mp3",
+            "regex": "(?:animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons$|animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons[^a-z0-9]+main[^a-z0-9]+theme$|switch[^a-z0-9]+animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons$|switch[^a-z0-9]+animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons[^a-z0-9]+main[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Animal Crossing New Horizons",
+            "file": "jingles/switch/Animal Crossing New Horizons (Obtain Fanfare).mp3",
+            "regex": "(?:animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons$|animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons[^a-z0-9]+obtain[^a-z0-9]+fanfare$|switch[^a-z0-9]+animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons$|switch[^a-z0-9]+animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons[^a-z0-9]+obtain[^a-z0-9]+fanfare$)"
+        },
+        {
+            "game": "Animal Crossing New Horizons",
+            "file": "jingles/switch/Animal Crossing New Horizons (Prologue 1).mp3",
+            "regex": "(?:animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons$|animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons[^a-z0-9]+prologue[^a-z0-9]+(?:1|i)$|switch[^a-z0-9]+animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons$|switch[^a-z0-9]+animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons[^a-z0-9]+prologue[^a-z0-9]+(?:1|i)$)"
+        },
+        {
+            "game": "Animal Crossing New Horizons",
+            "file": "jingles/switch/Animal Crossing New Horizons (Welcome to Our Island).mp3",
+            "regex": "(?:animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons$|animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons[^a-z0-9]+welcome[^a-z0-9]+to[^a-z0-9]+our[^a-z0-9]+island$|switch[^a-z0-9]+animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons$|switch[^a-z0-9]+animal[^a-z0-9]+crossing[^a-z0-9]+new[^a-z0-9]+horizons[^a-z0-9]+welcome[^a-z0-9]+to[^a-z0-9]+our[^a-z0-9]+island$)"
+        },
+        {
+            "game": "CTGP Deluxe",
+            "file": "jingles/switch/CTGP Deluxe (Main Menu).mp3",
+            "regex": "(?:ctgp[^a-z0-9]+deluxe$|ctgp[^a-z0-9]+deluxe[^a-z0-9]+main[^a-z0-9]+menu$|switch[^a-z0-9]+ctgp[^a-z0-9]+deluxe$|switch[^a-z0-9]+ctgp[^a-z0-9]+deluxe[^a-z0-9]+main[^a-z0-9]+menu$)"
+        },
+        {
+            "game": "CTGP Deluxe",
+            "file": "jingles/switch/CTGP Deluxe (Title Screen).mp3",
+            "regex": "(?:ctgp[^a-z0-9]+deluxe$|ctgp[^a-z0-9]+deluxe[^a-z0-9]+title[^a-z0-9]+screen$|switch[^a-z0-9]+ctgp[^a-z0-9]+deluxe$|switch[^a-z0-9]+ctgp[^a-z0-9]+deluxe[^a-z0-9]+title[^a-z0-9]+screen$)"
+        },
+        {
+            "game": "Mario Kart 8",
+            "file": "jingles/switch/Mario Kart 8 (Course Intro Fanfare).mp3",
+            "regex": "(?:mario[^a-z0-9]+kart[^a-z0-9]+(?:8|viii)$|mario[^a-z0-9]+kart[^a-z0-9]+(?:8|viii)[^a-z0-9]+course[^a-z0-9]+intro[^a-z0-9]+fanfare$|switch[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+(?:8|viii)$|switch[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+(?:8|viii)[^a-z0-9]+course[^a-z0-9]+intro[^a-z0-9]+fanfare$)"
+        },
+        {
+            "game": "Mario Kart 8",
+            "file": "jingles/switch/Mario Kart 8 (Select).mp3",
+            "regex": "(?:mario[^a-z0-9]+kart[^a-z0-9]+(?:8|viii)$|mario[^a-z0-9]+kart[^a-z0-9]+(?:8|viii)[^a-z0-9]+select$|switch[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+(?:8|viii)$|switch[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+(?:8|viii)[^a-z0-9]+select$)"
+        },
+        {
+            "game": "Mario Kart 8",
+            "file": "jingles/switch/Mario Kart 8 (Theme).mp3",
+            "regex": "(?:mario[^a-z0-9]+kart[^a-z0-9]+(?:8|viii)$|mario[^a-z0-9]+kart[^a-z0-9]+(?:8|viii)[^a-z0-9]+theme$|switch[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+(?:8|viii)$|switch[^a-z0-9]+mario[^a-z0-9]+kart[^a-z0-9]+(?:8|viii)[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "Pokemon Brilliant Diamond",
+            "file": "jingles/switch/Pokemon Brilliant Diamond (Opening Movie).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+brilliant[^a-z0-9]+diamond$|pokemon[^a-z0-9]+brilliant[^a-z0-9]+diamond[^a-z0-9]+opening[^a-z0-9]+movie$|switch[^a-z0-9]+pokemon[^a-z0-9]+brilliant[^a-z0-9]+diamond$|switch[^a-z0-9]+pokemon[^a-z0-9]+brilliant[^a-z0-9]+diamond[^a-z0-9]+opening[^a-z0-9]+movie$)"
+        },
+        {
+            "game": "Pokemon Legends Arceus",
+            "file": "jingles/switch/Pokemon Legends Arceus (Caught A Pokemon).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+legends[^a-z0-9]+arceus$|pokemon[^a-z0-9]+legends[^a-z0-9]+arceus[^a-z0-9]+caught[^a-z0-9]+a[^a-z0-9]+pokemon$|switch[^a-z0-9]+pokemon[^a-z0-9]+legends[^a-z0-9]+arceus$|switch[^a-z0-9]+pokemon[^a-z0-9]+legends[^a-z0-9]+arceus[^a-z0-9]+caught[^a-z0-9]+a[^a-z0-9]+pokemon$)"
+        },
+        {
+            "game": "Pokemon Legends Arceus",
+            "file": "jingles/switch/Pokemon Legends Arceus (Celestica Flute).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+legends[^a-z0-9]+arceus$|pokemon[^a-z0-9]+legends[^a-z0-9]+arceus[^a-z0-9]+celestica[^a-z0-9]+flute$|switch[^a-z0-9]+pokemon[^a-z0-9]+legends[^a-z0-9]+arceus$|switch[^a-z0-9]+pokemon[^a-z0-9]+legends[^a-z0-9]+arceus[^a-z0-9]+celestica[^a-z0-9]+flute$)"
+        },
+        {
+            "game": "Pokemon Legends Arceus",
+            "file": "jingles/switch/Pokemon Legends Arceus (Level Up).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+legends[^a-z0-9]+arceus$|pokemon[^a-z0-9]+legends[^a-z0-9]+arceus[^a-z0-9]+level[^a-z0-9]+up$|switch[^a-z0-9]+pokemon[^a-z0-9]+legends[^a-z0-9]+arceus$|switch[^a-z0-9]+pokemon[^a-z0-9]+legends[^a-z0-9]+arceus[^a-z0-9]+level[^a-z0-9]+up$)"
+        },
+        {
+            "game": "Pokemon Legends Arceus",
+            "file": "jingles/switch/Pokemon Legends Arceus (Rank Up).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+legends[^a-z0-9]+arceus$|pokemon[^a-z0-9]+legends[^a-z0-9]+arceus[^a-z0-9]+rank[^a-z0-9]+up$|switch[^a-z0-9]+pokemon[^a-z0-9]+legends[^a-z0-9]+arceus$|switch[^a-z0-9]+pokemon[^a-z0-9]+legends[^a-z0-9]+arceus[^a-z0-9]+rank[^a-z0-9]+up$)"
+        },
+        {
+            "game": "Pokemon Luminescent Platinum",
+            "file": "jingles/switch/Pokemon Luminescent Platinum (Opening Movie).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+luminescent[^a-z0-9]+platinum$|pokemon[^a-z0-9]+luminescent[^a-z0-9]+platinum[^a-z0-9]+opening[^a-z0-9]+movie$|switch[^a-z0-9]+pokemon[^a-z0-9]+luminescent[^a-z0-9]+platinum$|switch[^a-z0-9]+pokemon[^a-z0-9]+luminescent[^a-z0-9]+platinum[^a-z0-9]+opening[^a-z0-9]+movie$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Rescue Team DX",
+            "file": "jingles/switch/Pokemon Mystery Dungeon Rescue Team DX (File Select).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+dx$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+dx[^a-z0-9]+file[^a-z0-9]+select$|switch[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+dx$|switch[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+dx[^a-z0-9]+file[^a-z0-9]+select$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Rescue Team DX",
+            "file": "jingles/switch/Pokemon Mystery Dungeon Rescue Team DX (Intro).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+dx$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+dx[^a-z0-9]+intro$|switch[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+dx$|switch[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+dx[^a-z0-9]+intro$)"
+        },
+        {
+            "game": "Pokemon Mystery Dungeon Rescue Team DX",
+            "file": "jingles/switch/Pokemon Mystery Dungeon Rescue Team DX (Title Screen).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+dx$|pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+dx[^a-z0-9]+title[^a-z0-9]+screen$|switch[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+dx$|switch[^a-z0-9]+pokemon[^a-z0-9]+mystery[^a-z0-9]+dungeon[^a-z0-9]+rescue[^a-z0-9]+team[^a-z0-9]+dx[^a-z0-9]+title[^a-z0-9]+screen$)"
+        },
+        {
+            "game": "Pokemon Shining Pearl",
+            "file": "jingles/switch/Pokemon Shining Pearl (Opening Movie).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+shining[^a-z0-9]+pearl$|pokemon[^a-z0-9]+shining[^a-z0-9]+pearl[^a-z0-9]+opening[^a-z0-9]+movie$|switch[^a-z0-9]+pokemon[^a-z0-9]+shining[^a-z0-9]+pearl$|switch[^a-z0-9]+pokemon[^a-z0-9]+shining[^a-z0-9]+pearl[^a-z0-9]+opening[^a-z0-9]+movie$)"
+        },
+        {
+            "game": "The Legend of Zelda Breath of the Wild",
+            "file": "jingles/switch/The Legend of Zelda Breath of the Wild (Game Start).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+breath[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+wild$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+breath[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+wild[^a-z0-9]+game[^a-z0-9]+start$|switch[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+breath[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+wild$|switch[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+breath[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+wild[^a-z0-9]+game[^a-z0-9]+start$)"
+        },
+        {
+            "game": "The Legend of Zelda Breath of the Wild",
+            "file": "jingles/switch/The Legend of Zelda Breath of the Wild (Main Theme).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+breath[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+wild$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+breath[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+wild[^a-z0-9]+main[^a-z0-9]+theme$|switch[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+breath[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+wild$|switch[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+breath[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+wild[^a-z0-9]+main[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "The Legend of Zelda Breath of the Wild",
+            "file": "jingles/switch/The Legend of Zelda Breath of the Wild (Opening).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+breath[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+wild$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+breath[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+wild[^a-z0-9]+opening$|switch[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+breath[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+wild$|switch[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+breath[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+wild[^a-z0-9]+opening$)"
+        },
+        {
+            "game": "The Legend of Zelda Tears of the Kingdom",
+            "file": "jingles/switch/The Legend of Zelda Tears of the Kingdom (Decayed Master Sword).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+tears[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+kingdom$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+tears[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+kingdom[^a-z0-9]+decayed[^a-z0-9]+master[^a-z0-9]+sword$|switch[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+tears[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+kingdom$|switch[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+tears[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+kingdom[^a-z0-9]+decayed[^a-z0-9]+master[^a-z0-9]+sword$)"
+        },
+        {
+            "game": "The Legend of Zelda Tears of the Kingdom",
+            "file": "jingles/switch/The Legend of Zelda Tears of the Kingdom (Main Theme).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+tears[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+kingdom$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+tears[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+kingdom[^a-z0-9]+main[^a-z0-9]+theme$|switch[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+tears[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+kingdom$|switch[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+tears[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+kingdom[^a-z0-9]+main[^a-z0-9]+theme$)"
+        },
+        {
+            "game": "The Legend of Zelda Tears of the Kingdom",
+            "file": "jingles/switch/The Legend of Zelda Tears of the Kingdom (Opening).mp3",
+            "regex": "(?:the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+tears[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+kingdom$|the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+tears[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+kingdom[^a-z0-9]+opening$|switch[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+tears[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+kingdom$|switch[^a-z0-9]+the[^a-z0-9]+legend[^a-z0-9]+of[^a-z0-9]+zelda[^a-z0-9]+tears[^a-z0-9]+of[^a-z0-9]+the[^a-z0-9]+kingdom[^a-z0-9]+opening$)"
+        }
+    ],
+    "wii": [
+        {
+            "game": "Skylanders Spyros Adventure",
+            "file": "jingles/wii/Skylanders Spyros Adventure (Chapter Complete).mp3",
+            "regex": "(?:skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure$|skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure[^a-z0-9]+chapter[^a-z0-9]+complete$|wii[^a-z0-9]+skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure$|wii[^a-z0-9]+skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure[^a-z0-9]+chapter[^a-z0-9]+complete$)"
+        },
+        {
+            "game": "Skylanders Spyros Adventure",
+            "file": "jingles/wii/Skylanders Spyros Adventure (Exploring the Ruins).mp3",
+            "regex": "(?:skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure$|skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure[^a-z0-9]+exploring[^a-z0-9]+the[^a-z0-9]+ruins$|wii[^a-z0-9]+skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure$|wii[^a-z0-9]+skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure[^a-z0-9]+exploring[^a-z0-9]+the[^a-z0-9]+ruins$)"
+        },
+        {
+            "game": "Skylanders Spyros Adventure",
+            "file": "jingles/wii/Skylanders Spyros Adventure (Title).mp3",
+            "regex": "(?:skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure$|skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure[^a-z0-9]+title$|wii[^a-z0-9]+skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure$|wii[^a-z0-9]+skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure[^a-z0-9]+title$)"
+        },
+        {
+            "game": "Skylanders Spyros Adventure",
+            "file": "jingles/wii/Skylanders Spyros Adventure (Treasure Chest).mp3",
+            "regex": "(?:skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure$|skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure[^a-z0-9]+treasure[^a-z0-9]+chest$|wii[^a-z0-9]+skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure$|wii[^a-z0-9]+skylanders[^a-z0-9]+spyros[^a-z0-9]+adventure[^a-z0-9]+treasure[^a-z0-9]+chest$)"
+        }
+    ],
+    "windows": [
+        {
+            "game": "Minecraft",
+            "file": "jingles/windows/Minecraft (Aria Math).mp3",
+            "regex": "(?:minecraft$|minecraft[^a-z0-9]+aria[^a-z0-9]+math$|windows[^a-z0-9]+minecraft$|windows[^a-z0-9]+minecraft[^a-z0-9]+aria[^a-z0-9]+math$)"
+        },
+        {
+            "game": "Minecraft",
+            "file": "jingles/windows/Minecraft (Below and Above).mp3",
+            "regex": "(?:minecraft$|minecraft[^a-z0-9]+below[^a-z0-9]+and[^a-z0-9]+above$|windows[^a-z0-9]+minecraft$|windows[^a-z0-9]+minecraft[^a-z0-9]+below[^a-z0-9]+and[^a-z0-9]+above$)"
+        },
+        {
+            "game": "Minecraft",
+            "file": "jingles/windows/Minecraft (Blind Spots).mp3",
+            "regex": "(?:minecraft$|minecraft[^a-z0-9]+blind[^a-z0-9]+spots$|windows[^a-z0-9]+minecraft$|windows[^a-z0-9]+minecraft[^a-z0-9]+blind[^a-z0-9]+spots$)"
+        },
+        {
+            "game": "Minecraft",
+            "file": "jingles/windows/Minecraft (Deeper).mp3",
+            "regex": "(?:minecraft$|minecraft[^a-z0-9]+deeper$|windows[^a-z0-9]+minecraft$|windows[^a-z0-9]+minecraft[^a-z0-9]+deeper$)"
+        },
+        {
+            "game": "Minecraft",
+            "file": "jingles/windows/Minecraft (Eld Unknown).mp3",
+            "regex": "(?:minecraft$|minecraft[^a-z0-9]+eld[^a-z0-9]+unknown$|windows[^a-z0-9]+minecraft$|windows[^a-z0-9]+minecraft[^a-z0-9]+eld[^a-z0-9]+unknown$)"
+        },
+        {
+            "game": "Minecraft",
+            "file": "jingles/windows/Minecraft (Sweden).mp3",
+            "regex": "(?:minecraft$|minecraft[^a-z0-9]+sweden$|windows[^a-z0-9]+minecraft$|windows[^a-z0-9]+minecraft[^a-z0-9]+sweden$)"
         }
     ]
 }
