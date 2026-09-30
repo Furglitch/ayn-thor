@@ -152,6 +152,18 @@
             "regex": "(?:super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land$|super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land[^a-z0-9]+title[^a-z0-9]+screen$|3ds[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land$|3ds[^a-z0-9]+super[^a-z0-9]+mario[^a-z0-9]+3d[^a-z0-9]+land[^a-z0-9]+title[^a-z0-9]+screen$)"
         }
     ],
+    "android": [
+        {
+            "game": "Steam",
+            "file": "jingles/android/Steam (Hazardous Environments Short).mp3",
+            "regex": "(?:steam$|steam[^a-z0-9]+hazardous[^a-z0-9]+environments[^a-z0-9]+short$|android[^a-z0-9]+steam$|android[^a-z0-9]+steam[^a-z0-9]+hazardous[^a-z0-9]+environments[^a-z0-9]+short$)"
+        },
+        {
+            "game": "Steam",
+            "file": "jingles/android/Steam (Hazardous Environments).mp3",
+            "regex": "(?:steam$|steam[^a-z0-9]+hazardous[^a-z0-9]+environments$|android[^a-z0-9]+steam$|android[^a-z0-9]+steam[^a-z0-9]+hazardous[^a-z0-9]+environments$)"
+        }
+    ],
     "gb": [
         {
             "game": "Pokemon Blue",
