@@ -7,9 +7,9 @@ It is recommended to install Cocoon via Obtainium. <br>[<img src="https://raw.gi
 ## Settings
 
 ### Personalization
-- Icon Overlay: Carticon
-- Folder Icons: Interface
-- Folder Logos: Pinapple Graphic
+- Icon Overlay: Cartricon
+- Folder Icons: Interfacing
+- Folder Logos: Pinapple Graphics Controller Cnosole Logos
 - Folder Heros: DotHero
 - Accent: Light Blue
 - Cursor: Corners Animated
