@@ -45,6 +45,12 @@ It is recommended to install Cocoon via Obtainium. <br>[<img src="https://raw.gi
 - Default Sort: A-Z
 - Launch Apps on Main Display: Enabled
 
+#### Scrape
+
+- **Metadata Order**: Screenscraper -> Launchbox -> IGDB -> HowLongToBeat
+- **Media Order**: SteamGridDB -> ScreenScraper -> LaunchBox -> IGDB
+- **Scrape Jingles**: Enabled
+
 ### Integrations
 - All Set Up
 
