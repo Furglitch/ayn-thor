@@ -135,18 +135,18 @@
     ],
     "gbc": [
         {
-            "game": "Pokemon -  Crystal Version",
-            "file": "jingles/gbc/Pokemon -  Crystal Version (Title).mp3",
+            "game": "Pokemon - Crystal Version",
+            "file": "jingles/gbc/Pokemon - Crystal Version (Title).mp3",
             "regex": "(?:pokemon[^a-z0-9]+crystal[^a-z0-9]+version$|pokemon$|pokemon[^a-z0-9]+crystal[^a-z0-9]+version[^a-z0-9]+title$|pokemon[^a-z0-9]+title$|gbc[^a-z0-9]+pokemon[^a-z0-9]+crystal[^a-z0-9]+version$|gbc[^a-z0-9]+pokemon$|gbc[^a-z0-9]+pokemon[^a-z0-9]+crystal[^a-z0-9]+version[^a-z0-9]+title$|gbc[^a-z0-9]+pokemon[^a-z0-9]+title$)"
         },
         {
-            "game": "Pokemon -  Gold Version",
-            "file": "jingles/gbc/Pokemon -  Gold Version (Title).mp3",
+            "game": "Pokemon - Gold Version",
+            "file": "jingles/gbc/Pokemon - Gold Version (Title).mp3",
             "regex": "(?:pokemon[^a-z0-9]+gold[^a-z0-9]+version$|pokemon$|pokemon[^a-z0-9]+gold[^a-z0-9]+version[^a-z0-9]+title$|pokemon[^a-z0-9]+title$|gbc[^a-z0-9]+pokemon[^a-z0-9]+gold[^a-z0-9]+version$|gbc[^a-z0-9]+pokemon$|gbc[^a-z0-9]+pokemon[^a-z0-9]+gold[^a-z0-9]+version[^a-z0-9]+title$|gbc[^a-z0-9]+pokemon[^a-z0-9]+title$)"
         },
         {
-            "game": "Pokemon -  Silver Version",
-            "file": "jingles/gbc/Pokemon -  Silver Version (Title).mp3",
+            "game": "Pokemon - Silver Version",
+            "file": "jingles/gbc/Pokemon - Silver Version (Title).mp3",
             "regex": "(?:pokemon[^a-z0-9]+silver[^a-z0-9]+version$|pokemon$|pokemon[^a-z0-9]+silver[^a-z0-9]+version[^a-z0-9]+title$|pokemon[^a-z0-9]+title$|gbc[^a-z0-9]+pokemon[^a-z0-9]+silver[^a-z0-9]+version$|gbc[^a-z0-9]+pokemon$|gbc[^a-z0-9]+pokemon[^a-z0-9]+silver[^a-z0-9]+version[^a-z0-9]+title$|gbc[^a-z0-9]+pokemon[^a-z0-9]+title$)"
         }
     ],
