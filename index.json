@@ -8,8 +8,8 @@
         },
         {
             "game": "Pokemon Alpha Sapphire",
-            "file": "jingles/3ds/Pokemon Alpha Sapphire (Title).mp3",
-            "regex": "(?:pokemon[^a-z0-9]+alpha[^a-z0-9]+sapphire$|pokemon[^a-z0-9]+alpha[^a-z0-9]+sapphire[^a-z0-9]+title$|3ds[^a-z0-9]+pokemon[^a-z0-9]+alpha[^a-z0-9]+sapphire$|3ds[^a-z0-9]+pokemon[^a-z0-9]+alpha[^a-z0-9]+sapphire[^a-z0-9]+title$)"
+            "file": "jingles/3ds/Pokemon Alpha Sapphire (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+alpha[^a-z0-9]+sapphire$|pokemon[^a-z0-9]+alpha[^a-z0-9]+sapphire[^a-z0-9]+opening$|3ds[^a-z0-9]+pokemon[^a-z0-9]+alpha[^a-z0-9]+sapphire$|3ds[^a-z0-9]+pokemon[^a-z0-9]+alpha[^a-z0-9]+sapphire[^a-z0-9]+opening$)"
         },
         {
             "game": "Pokemon Bank",
@@ -28,8 +28,8 @@
         },
         {
             "game": "Pokemon Omega Ruby",
-            "file": "jingles/3ds/Pokemon Omega Ruby (Title).mp3",
-            "regex": "(?:pokemon[^a-z0-9]+omega[^a-z0-9]+ruby$|pokemon[^a-z0-9]+omega[^a-z0-9]+ruby[^a-z0-9]+title$|3ds[^a-z0-9]+pokemon[^a-z0-9]+omega[^a-z0-9]+ruby$|3ds[^a-z0-9]+pokemon[^a-z0-9]+omega[^a-z0-9]+ruby[^a-z0-9]+title$)"
+            "file": "jingles/3ds/Pokemon Omega Ruby (Opening).mp3",
+            "regex": "(?:pokemon[^a-z0-9]+omega[^a-z0-9]+ruby$|pokemon[^a-z0-9]+omega[^a-z0-9]+ruby[^a-z0-9]+opening$|3ds[^a-z0-9]+pokemon[^a-z0-9]+omega[^a-z0-9]+ruby$|3ds[^a-z0-9]+pokemon[^a-z0-9]+omega[^a-z0-9]+ruby[^a-z0-9]+opening$)"
         },
         {
             "game": "Pokemon Sun",
