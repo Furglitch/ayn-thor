@@ -7,11 +7,11 @@ List of track sources and edits
 ## 3DS
 
 - **Detective Pikachu** - *3DS Official Jingle* - None
-- **Pokemon Alpha Sapphire** - *Title Screen* - Trim # TODO Swap to Opening
+- **Pokemon Alpha Sapphire** - *Opening* - Trim
 - **Pokemon Bank** - *Bank Fanfare* - None
 - **Pokemon Moon** - *3DS Official Jingle* - None
 - **Pokemon Mystery Dungeon: Gates to Infinity** - *Logo Theme* - Trim
-- **Pokemon Omega Ruby** - *Title Screen* - Trim # TODO Swap to Opening
+- **Pokemon Omega Ruby** - *Opening* - Trim
 - **Pokemon Sun** - *3DS Official Jingle* - None
 - **Pokemon Super Mystery Dungeon** - *Logo Theme* - Trim
 - **Pokemon Ultra Moon** - *3DS Official Jingle* - None
