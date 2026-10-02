@@ -17,40 +17,42 @@
 
 ### General
 - Set up controller profile
-    - [ ] RetroArch
-    - [ ] Dolphin
-    - [ ] WatermelonDS
-    - [ ] Azahar
-    - [ ] Mupen64Plus AE
-    - [ ] Eden Nightly
+    - [X] RetroArch
+    - [X] Dolphin
+    - [X] WatermelonDS
+    - [X] Azahar
+    - [X] Mupen64Plus AE
+    - [X] Eden Nightly
     - [ ] GameNative
 
 - Set up RetroAchievements login
-    - [ ] RetroArch *via .cfg file*
-    - [ ] Dolphin
-    - [ ] WatermelonDS
-    - [ ] Mupen64Plus AE
+    - [X] RetroArch *via .cfg file*
+    - [X] Dolphin
+    - [X] WatermelonDS
+    - [X] Mupen64Plus AE
 
 - Set save file location
-  "Internal Storage/saves/<platform>"
-    - [ ] RetroArch Gambatte
-    - [ ] RetroArch mGBA
-    - [ ] Dolphin
-    - [ ] WatermelonDS
-    - [ ] Azahar
-    - [ ] Mupen64Plus AE
-    - [ ] Eden Nightly
+    - [?] RetroArch
+    - [-] Dolphin
+    - [X] WatermelonDS
+    - [?] Azahar
+    - [-] Mupen64Plus AE
+    - [X] Eden Nightly
     - [ ] GameNative
 
 #### Firmware
-Most can be found at https://github.com/Abdess/retrobios/tree/main/bios
+Most can be found at https://github.com/Abdess/retrobios/
 
+- [ ] Gameboy
+- [ ] Gameboy Color
+- [ ] Gameboy Advanced
 - [ ] Switch
 
 ### Emulator Specific
 
 #### RetroArch
-- **Menu Driver:** Ozone
+- *Settings* - *Drivers* - **Menu**: Ozone
+- *Settings* - *Input* - *Menu Controls* - **Menu Swap OK and Cancel Buttons**: Off
 - Download Gambatte and mGBA cores
 
 #### Dolphin
@@ -58,6 +60,7 @@ Most can be found at https://github.com/Abdess/retrobios/tree/main/bios
 - *Config* - *GameCube* - **Slot A Device**: GCI Folder
 - *Graphics* - **Video Backend**: Vulkan
 - *Graphics* - **Compile Shaders Before Starting**: Enabled
+- *Graphics* - **Aspect Ratio**: Force 16:9
 - *Graphics* - *Enhancements* - **Internal Resolution**: 3x native
 - *Graphics* - *Enhancements* - **Widescreen Hack**: Enabled
 
@@ -66,8 +69,8 @@ Most can be found at https://github.com/Abdess/retrobios/tree/main/bios
 - *General* - **Check for Updates**: Disabled
 - *Save Files* - **Save Next to ROM File**: Disabled
 - *System* - *Internal Firmware Settings*: Set up accordingly
-- *General* - **Fast-forward Max Speed**: 4x
-- *Video* - **Renderer**: OpenGL
+- *Video* - **Renderer**: Vulkan
+- *Video* - **Internal resolution**: 4x native
 - *Audio* - **Microphone Source**: Device Microphone
 - *Input* - **Soft Input Opacity**: ~20%
 
@@ -90,7 +93,7 @@ Most can be found at https://github.com/Abdess/retrobios/tree/main/bios
 - *Advanced Settings* - *Device Overlay* - **Enable**: Disabled
 - *Advanced Settings* - *Input Overlay* - **Enable**: Disabled
 - *Controls* - *Player 1* - **Controller Type**: Pro Controller
-- **GPU Driver Manager**: Mr. Purple T23 Toasted
+- **GPU Driver Manager**: Turnip Mr. Purple T23 Toasted
 
 #### GameNative
 - *Settings* - *Emulation* - **Auto-apply known config**: Enabled
