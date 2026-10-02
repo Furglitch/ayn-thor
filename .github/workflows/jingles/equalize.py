@@ -25,7 +25,7 @@ if FFMPEG is None:
     )
 
 # Root folder containing your audio files
-AUDIO_DIR = Path(__file__).resolve().parent
+AUDIO_DIR = Path(__file__).resolve().parent.parent.parent.parent / "jingles"
 
 # Progress file
 PROGRESS_FILE = AUDIO_DIR / "equalized_files.json"
